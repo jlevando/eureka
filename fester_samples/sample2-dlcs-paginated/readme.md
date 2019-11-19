@@ -1,6 +1,6 @@
 ### Sample 1 for Fester: Sinai manuscripts model
 
-For paginated collections migrated from DLCS, there may be one or more CSVs that contain all **Work** and **ChildWork** rows for one or more given items.
+For paginated collections migrated from DLCS, there may be one CSV that contains all **Work** and **ChildWork** rows for one or more given items.
 * `collection.csv` (this csv includes at least one Work row and all ChildWork rows for each paginated object)
 
 *See the CSV example in this folder.*
