@@ -1,0 +1,11 @@
+2020-03-02 13:11:17,178 - root - INFO - FESTERIZER STARTED at 2020-03-02 13:11:09...
+2020-03-02 13:16:18,133 - root - ERROR - latimes6.csv failed to load, status code 504
+2020-03-02 13:16:18,133 - root - ERROR - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+2020-03-02 13:16:18,133 - root - ERROR - --------------------------------------------
+2020-03-02 13:16:18,133 - root - INFO - FESTERIZER ENDED at 2020-03-02 13:16:18...
