@@ -1,7 +1,7 @@
 ### Sample 2 for Fester: Paginated collections from DLCS
 
-For paginated collections migrated from DLCS, there may be one CSV that contains all **Work** and **ChildWork** rows for one or more given items.
-* `collection.csv` (this csv includes at least one Work row and all ChildWork rows for each paginated object)
+For paginated collections migrated from DLCS, there may be one CSV that contains all **Work** and **Page** rows for one or more given items.
+* `collection.csv` (this csv includes at least one Work row and all Page rows for each paginated object)
 
 *See the CSV example in this folder.*
 
