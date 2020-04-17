@@ -6,4 +6,9 @@ Manuscript Number,ARK,Batch,CSV filename,Date ingested,Stage,Prod
 551,ark:/21198/zz000srw9x,Batch 3,minasian_batch3_works.csv,2/6/2020,x,x
 631,ark:/21198/zz000sz4f2,Batch 3,minasian_batch3_works.csv,2/6/2020,x,x
 764,ark:/21198/zz000szj9s,Batch 3,minasian_batch3_works.csv,2/6/2020,x,x
-399,ark:/21198/zz000srk40,Batch 4,minasian_mss399_work.csv,,,
+399,ark:/21198/zz000srk40,Batch 4,minasian_mss399_work.csv,4/16/20,x,
+336,ark:/21198/zz000sw0gr,Batch 5,minasian_batch5_works.csv,,,
+1486,ark:/21198/zz000wrh7t,Batch 5,minasian_batch5_works.csv,,,
+1475,ark:/21198/zz000wrgm1,Batch 5,minasian_batch5_works.csv,,,
+577,ark:/21198/zz000srzdf,Batch 5,minasian_batch5_works.csv,,,
+561,ark:/21198/zz000srx2s,Batch 5,minasian_batch5_works.csv,,,
