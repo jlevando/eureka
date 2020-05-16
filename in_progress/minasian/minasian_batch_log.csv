@@ -1,4 +1,4 @@
-Manuscript Number,ARK,Batch,CSV filename,Date ingested,Stage,Prod,Notes
+Manuscript Number,ARK,Batch,CSV filename,Date ingested,Date Ingested Stage,Date Ingested Prod,Notes
 12,ark:/21198/zz000sq41q,Batch 2,minasian_mss12_work.csv,2/4/2020,x,x,
 30,ark:/21198/zz000sr04s,Batch 1,minasian_mss30_work.csv,2/4/2020,x,x,
 314,ark:/21198/zz000svzmw,Batch 3,minasian_batch3_works.csv,2/6/2020,x,x,
@@ -13,3 +13,8 @@ Manuscript Number,ARK,Batch,CSV filename,Date ingested,Stage,Prod,Notes
 577,ark:/21198/zz000srzdf,Removed,minasian_batch5_works.csv,,,,Images not on Masters. Thumbnails are also missing. Need to assume the files were lost. Removed from batch 5.
 561,ark:/21198/zz000srx2s,Batch 5,minasian_batch5_works.csv,,,,
 1440,ark:/21198/zz000wrbz8,Batch 5,minasian_batch5_works.csv,,,,
+732,ark:/21198/zz000szg47,Batch 6,minasian_batch6_works.csv,,5/14/20,,
+1447,ark:/21198/zz000wrck2,Batch 6,minasian_batch6_works.csv,,5/14/20,,
+582,ark:/21198/zz000srzk1,Batch 6,minasian_batch6_works.csv,,5/14/20,,
+396,ark:/21198/zz000srk1f,Batch 6,minasian_batch6_works.csv,,,,
+183,ark:/21198/zz000stp3t,Batch 6,minasian_batch6_works.csv,,5/14/20,,
