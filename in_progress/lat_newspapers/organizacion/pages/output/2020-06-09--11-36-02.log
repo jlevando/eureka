@@ -1,0 +1,1130 @@
+2020-06-09 11:36:02,597 - root - INFO - STARTING at 2020-06-09 11:36:02...
+2020-06-09 11:36:03,094 - root - ERROR - Failed to upload 21198zz0028vkvr_pages.csv: 500
+2020-06-09 11:36:03,094 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:03,094 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:03,324 - root - ERROR - Failed to upload 21198zz0028vm1t_pages.csv: 500
+2020-06-09 11:36:03,324 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:03,324 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:03,564 - root - ERROR - Failed to upload 21198zz0028vm6d_pages.csv: 500
+2020-06-09 11:36:03,564 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:03,564 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:03,797 - root - ERROR - Failed to upload 21198zz0028vmc0_pages.csv: 500
+2020-06-09 11:36:03,798 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:03,798 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:04,035 - root - ERROR - Failed to upload 21198zz0028vmjk_pages.csv: 500
+2020-06-09 11:36:04,035 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:04,035 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:04,274 - root - ERROR - Failed to upload 21198zz0028vmq5_pages.csv: 500
+2020-06-09 11:36:04,274 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:04,274 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:04,514 - root - ERROR - Failed to upload 21198zz0028vn6w_pages.csv: 500
+2020-06-09 11:36:04,515 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:04,515 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:04,756 - root - ERROR - Failed to upload 21198zz00292j72_pages.csv: 500
+2020-06-09 11:36:04,756 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:04,756 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:04,983 - root - ERROR - Failed to upload 21198zz00292jdn_pages.csv: 500
+2020-06-09 11:36:04,983 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:04,983 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:05,208 - root - ERROR - Failed to upload 21198zz00292jk7_pages.csv: 500
+2020-06-09 11:36:05,208 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:05,208 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:05,437 - root - ERROR - Failed to upload 21198zz00292jrt_pages.csv: 500
+2020-06-09 11:36:05,437 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:05,438 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:05,668 - root - ERROR - Failed to upload 21198zz00292kfn_pages.csv: 500
+2020-06-09 11:36:05,668 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:05,668 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:05,899 - root - ERROR - Failed to upload 21198zz00292km7_pages.csv: 500
+2020-06-09 11:36:05,899 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:05,899 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:06,127 - root - ERROR - Failed to upload 21198zz00292kvv_pages.csv: 500
+2020-06-09 11:36:06,128 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:06,128 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:06,354 - root - ERROR - Failed to upload 21198zz00292m2f_pages.csv: 500
+2020-06-09 11:36:06,354 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:06,355 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:06,594 - root - ERROR - Failed to upload 21198zz00292p1w_pages.csv: 500
+2020-06-09 11:36:06,594 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:06,594 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:06,826 - root - ERROR - Failed to upload 21198zz00292p8h_pages.csv: 500
+2020-06-09 11:36:06,826 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:06,827 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:07,052 - root - ERROR - Failed to upload 21198zz00292pf3_pages.csv: 500
+2020-06-09 11:36:07,052 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:07,052 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:07,274 - root - ERROR - Failed to upload 21198zz00292pmp_pages.csv: 500
+2020-06-09 11:36:07,274 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:07,274 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:07,504 - root - ERROR - Failed to upload 21198zz00292ps8_pages.csv: 500
+2020-06-09 11:36:07,504 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:07,505 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:07,956 - root - ERROR - Failed to upload 21198zz00292q0v_pages.csv: 500
+2020-06-09 11:36:07,956 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:07,956 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:08,179 - root - ERROR - Failed to upload 21198zz00292q5f_pages.csv: 500
+2020-06-09 11:36:08,179 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:08,179 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:08,405 - root - ERROR - Failed to upload 21198zz00292qb1_pages.csv: 500
+2020-06-09 11:36:08,411 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:08,411 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:08,639 - root - ERROR - Failed to upload 21198zz00292qhm_pages.csv: 500
+2020-06-09 11:36:08,639 - root - ERROR - <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Fester CSV Upload</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="/fester/css/bootstrap.min.css">
+<link rel="stylesheet" href="/fester/css/fester-custom.css">
+<link rel="stylesheet" href="/fester/css/fester-response.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-custom-grey navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/fester">Fester</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/fester/upload/csv">CSV Upload</a> <a class="nav-item nav-link active"
+          href="/fester/docs">API Documentation</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 id="csv-upload-title">Error</h1>
+    <p>Manifest generation failed: Bad Request</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+2020-06-09 11:36:08,639 - root - ERROR - --------------------------------------------
+2020-06-09 11:36:08,639 - root - INFO - DONE at 2020-06-09 11:36:08.
