@@ -20,3 +20,8 @@ Manuscript Number,ARK,Batch,CSV filename,Date ingested,Date Ingested Stage,Date 
 183,ark:/21198/zz000stp3t,Batch 6,minasian_batch6_works.csv,,5/14/20,,
 13,ark:/21198/zz000sq427,Batch 7,minasian_batch7_works.csv,,6/9/20,,Testing table of contents script from Ashton; looks good
 23,ark:/21198/zz000sqzfh,Batch 7,minasian_batch7_works.csv,,6/9/20,,Parital ingest; did not bucketed yet. Testing table of contents script from Ashton
+31,ark:/21198/zz000spg55,Batch 8,minasian_batch8_works.csv,,6/11/20,,
+32,ark:/21198/zz000spggt,Batch 8,minasian_batch8_works.csv,,6/11/20,,
+33,ark:/21198/zz000spnwf,Batch 8,minasian_batch8_works.csv,,6/11/20,,
+34,ark:/21198/zz000sq0zr,Batch 8,minasian_batch8_works.csv,,6/11/20,,
+35,ark:/21198/zz000sq1g0,Batch 8,minasian_batch8_works.csv,,6/11/20,,
