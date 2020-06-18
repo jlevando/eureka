@@ -20,11 +20,14 @@ Updated 2020-06-11
 
 9. Copy the files into the batch folder.
 
-10. Move the pages CSVs in the \minasian_processing directory into the \ingested folder
+10. Enter value in text direction field
 
-11. Change the Filename path to correct the path (it is wrong in DLCS).
+11. Move the pages CSVs in the \minasian_processing directory into the \ingested folder
 
-12. Run bucketed
+12. Change the Filename path to correct the path (it is wrong in DLCS).
+
+12. Run bucketeer
+
 
 
 `minasian_digitized_works_updated_2020_05_20.csv` was created by Ashton to take all the intellectual works titles from the hierarchy in DLCS and put it into a column for the manuscript volume. She did this work on 2020-05-20.
