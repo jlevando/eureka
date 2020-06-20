@@ -2,11 +2,18 @@ Minasian Migration Workflow Readme
 Written by Lisa McAulay
 Updated 2020-06-11
 
+Principles -- We are starting with the manuscripts that contain information about conceptual works to make sure the workflow for these items is fully worked out. The other manuscripts should not be as complicated. These are only about 40+ of the total digitized manuscripts (circa 322).
+
+Pre-work (that hopefully after 2020-06-20 does not need to be redone)
+Take the file from Ashton's script's output named `minasian_digitized_works.csv` and bring it into OpenRefine. Using OpenRefine text facet on the column for description.tableOfContents. Select all rows that are blank, export those rows as minasian_digitized_mss_no_toc.csv. Star all the rows that are blank then facet by star and select only un-starred rows and export those rows as minasian_digitized_mss_with_toc.csv.
+
+
+
 1. Start from in_progress\minasian\tracking_documents
 
-2. Open `minasian_digitized_mss_with_toc_2020_06_09`. Select any number of rows for migration working from the top of the document. 
+2. Open `minasian_digitized_mss_with_toc_2020_06_20`. Select any number of rows for migration working from the top of the document. 
 
-3. Copy the row for each work you plan to migrate into `minasian_digitized_works_ingested_2020_06_11`. This is a CSV for reference only and we may stop using it eventually. 
+3. Copy the row for each work you plan to migrate into `minasian_digitized_works_ingested_2020_06_20`. This is a CSV for reference only and we may stop using it eventually. 
 
 4. Delete the row you copied from the `minasian_digitized_mss_with_toc_2020_06_09`. This CSV will act as a "To do" list and will get smaller with every batch that is migrated.
 
