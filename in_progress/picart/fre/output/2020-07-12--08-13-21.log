@@ -1,0 +1,3 @@
+2020-07-12 08:13:21,198 - root - INFO - STARTING at 2020-07-12 08:13:21...
+2020-07-12 08:13:21,424 - root - ERROR - File fre^.csv does not exist, skipping
+2020-07-12 08:13:21,424 - root - INFO - DONE at 2020-07-12 08:13:21.
