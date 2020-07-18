@@ -27,14 +27,19 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 9. Copy the files into the batch folder.
 
-10. Enter value in text direction field
+10. Enter value in text direction field in the works.csv
 
 11. Move the pages CSVs in the \minasian_processing directory into the \ingested folder
 
 12. Change the Filename path to correct the path (it is wrong in DLCS).
 
-12. Run bucketeer
+12. Run bucketeer for all the pages.csv files
 
+13. Festerize the works.csv
+
+14. Festerize the pages.csv
+
+15. Upload the works.csv to Californica-stage
 
 
 `minasian_digitized_works_updated_2020_05_20.csv` was created by Ashton to take all the intellectual works titles from the hierarchy in DLCS and put it into a column for the manuscript volume. She did this work on 2020-05-20.
