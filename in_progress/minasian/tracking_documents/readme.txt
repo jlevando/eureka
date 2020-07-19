@@ -23,13 +23,13 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 7. Create a new CSV inside that batch folder named minasian_batchX_works.csv
 
-8. Find all relevant CSVs inside \minasian_processing for the pages of the manuscripts in the batch
+8. Find all relevant CSVs inside \minasian_pages for the pages of the manuscripts in the batch
 
 9. Copy the files into the batch folder.
 
 10. Enter value in text direction field in the works.csv
 
-11. Move the pages CSVs in the \minasian_processing directory into the \ingested folder
+11. Delete the pages CSVs from the \minasian_pages directory after copying to the batch directory (we don't need to keep 2 copies)
 
 12. Change the Filename path to correct the path (it is wrong in DLCS).
 
@@ -41,6 +41,12 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 15. Upload the works.csv to Californica-stage
 
+16. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
+
+17. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
+
+18. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
+
 
 `minasian_digitized_works_updated_2020_05_20.csv` was created by Ashton to take all the intellectual works titles from the hierarchy in DLCS and put it into a column for the manuscript volume. She did this work on 2020-05-20.
 
@@ -48,6 +54,10 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 3. gradually, the first file will have fewer rows and the second file will have more rows. The first file will be rows for manuscript ("works" in californica) to be migrated and the second file will be manuscripts that have been migrated.
 
+
+Strange things I've found along the way
+
+1. A Pages Csv with no data (21198zz000stfd3) - not sure why. It turned out to be an item with no children (either conceptual works or pages, so it shouldn't have qualified to be in my workflow. I kicked it out of the batch and moved on. 
  
 About the files
 
