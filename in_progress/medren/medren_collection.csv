@@ -1,20 +1,2 @@
-Project Name,Item ARK,Parent ARK,Item Status ID,Item Status,Object Type,File Name,Item Sequence,Duplicate,Delete in Title,viewingHint,Text direction,Visibility,IIIF Range,Type.typeOfResource,Type.genre,Rights.copyrightStatus,Language,Subject,Name.repository,Name.creator,Title,Relation.rectoVerso,Date.creation,Relation.isPartOf,Alt ID.local,AltTitle.uniform,Description.note,Format.dimensions,Description.abstract,Coverage.geographic,Relation.leafNumber,Date.normalized,Publisher.placeOfOrigin,Format.medium,Publisher.publisherName,Relation.textDirection,Format.extent,Relation.pageNumber,thumbnailImageName,masterImageName
-Medieval and Renaissance Manuscripts,ark:/21198/zz0009gx4f,,2,Completed,Collection,,19,,,,,,,text,,pd,,,"University of California, Los Angeles. $b Library Special Collections",,Medieval and Renaissance Manuscripts,,,,,,,,"Manuscripts and manuscript leaves, in scripts of the Latin alphabet, ranging from Carolingian minuscule to Burgundian letter and humanist script, written across Europe before 1600 and representing  the Latin, Italian, German, Netherlandish, Italian, English, French, Spanish, and Czech languages. Types of manuscripts include liturgical works, collections of sermons and the florilegia used for sermon composition, confessionals and penitentials for pastoral care, vernacular literature such as romances and verse, business and administrative records, including Italian and French land records—charters, cartularies, terriers, and rent rolls dating from the late thirteenth century to the seventeenth.",,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Project Name,Item ARK,Parent ARK,Item Status ID,Item Status,Object Type,File Name,Item Sequence,Duplicate,Delete in Title,viewingHint,Text direction,Visibility,IIIF Range,Type.typeOfResource,Type.genre,Rights.copyrightStatus,Language,Subject,Name.repository,Name.creator,Title,Relation.rectoVerso,Date.creation,Relation.isPartOf,Alt ID.local,AltTitle.uniform,Description.note,Format.dimensions,Description.abstract,Coverage.geographic,Relation.leafNumber,Date.normalized,Publisher.placeOfOrigin,Format.medium,Publisher.publisherName,Relation.textDirection,Format.extent,Relation.pageNumber,thumbnailImageName,masterImageName,IIIF Manifest URL
+Medieval and Renaissance Manuscripts,ark:/21198/zz0009gx4f,,2,Completed,Collection,,19,,,,,,,text,,pd,,,"University of California, Los Angeles. $b Library Special Collections",,Medieval and Renaissance Manuscripts,,,,,,,,"Manuscripts and manuscript leaves, in scripts of the Latin alphabet, ranging from Carolingian minuscule to Burgundian letter and humanist script, written across Europe before 1600 and representing  the Latin, Italian, German, Netherlandish, Italian, English, French, Spanish, and Czech languages. Types of manuscripts include liturgical works, collections of sermons and the florilegia used for sermon composition, confessionals and penitentials for pastoral care, vernacular literature such as romances and verse, business and administrative records, including Italian and French land records—charters, cartularies, terriers, and rent rolls dating from the late thirteenth century to the seventeenth.",,,,,,,,,,,,https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fzz0009gx4f
