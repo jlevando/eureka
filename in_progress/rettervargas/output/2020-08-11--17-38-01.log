@@ -1,0 +1,4 @@
+2020-08-11 17:38:01,155 - root - INFO - STARTING at 2020-08-11 17:38:01...
+2020-08-11 17:38:03,722 - root - ERROR - Failed to upload rettervargas.csv: Manifest generation failed: Work row is missing an "Item ARK" or "Title" value (HTTP 400)
+2020-08-11 17:38:03,722 - root - ERROR - --------------------------------------------
+2020-08-11 17:38:03,722 - root - INFO - DONE at 2020-08-11 17:38:03.
