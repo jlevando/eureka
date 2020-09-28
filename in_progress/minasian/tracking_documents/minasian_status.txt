@@ -1,16 +1,17 @@
 Minasian Status Document
 
-2020-07-19
+2020-09-27
 Lisa
 
 Batches 1-9
-Still working with Apps team to develop reasonable presentation of Table of Contents for Minasian items that have conceptual works.
-Although the ticket for using the HTML br tag was completed, when I tried to test using both <br> and <br/> the tag was presented literally in the item view page.
-Californica stage ingest is broken/stuck. Will work with Apps team to get that unstuck.
 
-Batches 10 and 11
-Bucketeering for the first manuscript in Batch 10 failed.
-Assigned bucketeering for Batch 10 to Jake, with a note that the first csv was failing and that he might need help
+Reviewing Table of Contents presentation on Item Detail Page 
 
-Batch 10 is ready for bucketeering (and troubleshooting)
-Batch 11 needs me to gather up the pages csvs. 
+
+Batch 10
+
+Needs Geno's help to re-save images for Manuscript 160. This manuscript failed bucketeer
+
+Batch 11 
+
+needs me to gather up the pages csvs. 
