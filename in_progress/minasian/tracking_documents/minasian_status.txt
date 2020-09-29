@@ -1,6 +1,6 @@
 Minasian Status Document
 
-2020-09-27
+2020-09-29
 Lisa
 
 Batches 1-9
@@ -10,7 +10,9 @@ Reviewing Table of Contents presentation on Item Detail Page
 
 Batch 10
 
-Needs Geno's help to re-save images for Manuscript 160. This manuscript failed bucketeer
+Needs Geno's help to add a placeholder image to the Masters for Manuscript 151. Then Manuscript 151 has to be re-bucketeered and then I have to re-do festering.
+
+Turns out Manuscript 151 does not contain any conceptual works. Ashton's script picked up a page object item and interpreted it as a conceptual work because it didn't have a tiff image associated with it. But it was not a work, it was a page that was not imaged. 
 
 Batch 11 
 
