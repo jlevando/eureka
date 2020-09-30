@@ -7,12 +7,16 @@ Batches 1-9
 
 Reviewing Table of Contents presentation on Item Detail Page 
 
+Batch 9
+
+Loading onto stage 9/30.
+Discovered that Manuscript 62 had a page item that didn't have an image attached to it. So I needed to find the image, add a row to the pages.csv. Now I'm stuck on rebucketering it. (9/30/20)
+I have checked the metadata for all the manuscripts on californica-stage. So I'm ready to re-festerize and reload and then move to production as soon as I can get the bucketed situation unblocked
+
 
 Batch 10
 
-Needs Geno's help to add a placeholder image to the Masters for Manuscript 151. Then Manuscript 151 has to be re-bucketeered and then I have to re-do festering.
-
-Turns out Manuscript 151 does not contain any conceptual works. Ashton's script picked up a page object item and interpreted it as a conceptual work because it didn't have a tiff image associated with it. But it was not a work, it was a page that was not imaged. 
+Proofed on Stage on 9/29. Ingesting to production on 9/30.
 
 Batch 11 
 
