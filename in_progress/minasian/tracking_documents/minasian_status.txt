@@ -7,12 +7,6 @@ Batches 1-9
 
 Reviewing Table of Contents presentation on Item Detail Page 
 
-Batch 9
-
-Loading onto stage 9/30.
-Discovered that Manuscript 62 had a page item that didn't have an image attached to it. So I needed to find the image, add a row to the pages.csv. Now I'm stuck on rebucketering it. (9/30/20)
-I have checked the metadata for all the manuscripts on californica-stage. So I'm ready to re-festerize and reload and then move to production as soon as I can get the bucketed situation unblocked
-
 
 Batch 10
 
@@ -20,4 +14,4 @@ Proofed on Stage on 9/29. Ingesting to production on 9/30.
 
 Batch 11 
 
-needs me to gather up the pages csvs. 
+Prepping Batch 11. Pages csvs are in the right place and file paths have been corrected generally. Now need to fix a few individual items. A Jira ticket for bucketeering batch 11 has been created and I'm talking to Dawn and Geno about Jake's availability to do that work. (Lisa, 9/30/20)
