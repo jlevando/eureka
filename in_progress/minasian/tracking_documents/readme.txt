@@ -4,7 +4,7 @@ Updated 2020-06-11
 
 Principles -- We are starting with the manuscripts that contain information about conceptual works to make sure the workflow for these items is fully worked out. The other manuscripts should not be as complicated. These are only about 40+ of the total digitized manuscripts (circa 322).
 
-Pre-work (that hopefully after 2020-06-20 does not need to be redone)
+Pre-work -- Completed already. IMPORTANT, this work would have to be redone.
 Take the file from Ashton's script's output named `minasian_digitized_works.csv` and bring it into OpenRefine. Using OpenRefine text facet on the column for description.tableOfContents. Select all rows that are blank, export those rows as minasian_digitized_mss_no_toc.csv. Star all the rows that are blank then facet by star and select only un-starred rows and export those rows as minasian_digitized_mss_with_toc.csv.
 
 
