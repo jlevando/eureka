@@ -27,26 +27,29 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 9. Copy the files into the batch folder.
 
-10. Enter value in text direction field in the works.csv
+10. Delete the pages CSVs from the \minasian_pages directory after copying to the batch directory (we don't need to keep 2 copies)
 
-11. Delete the pages CSVs from the \minasian_pages directory after copying to the batch directory (we don't need to keep 2 copies)
+11. Enter value in text direction field in the works.csv
 
 12. Change the Filename path to correct the path (it is wrong in DLCS).
 
-12. Run bucketeer for all the pages.csv files
+13. Change |~| to <br/><br/> (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
 
-13. Festerize the works.csv
+14. Run bucketeer for all the pages.csv files
 
-14. Festerize the pages.csv
+15. Festerize the works.csv
 
-15. Upload the works.csv to Californica-stage
+16. Festerize the pages.csv
 
-16. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
+17. Upload the works.csv to Californica-stage
 
-17. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
+18. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
 
-18. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
+19. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
 
+20. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
+
+----------------------------
 
 `minasian_digitized_works_updated_2020_05_20.csv` was created by Ashton to take all the intellectual works titles from the hierarchy in DLCS and put it into a column for the manuscript volume. She did this work on 2020-05-20.
 
