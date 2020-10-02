@@ -1,6 +1,6 @@
 Minasian Status Document
 
-2020-09-27
+2020-09-29
 Lisa
 
 Batches 1-9
@@ -10,8 +10,8 @@ Reviewing Table of Contents presentation on Item Detail Page
 
 Batch 10
 
-Needs Geno's help to re-save images for Manuscript 160. This manuscript failed bucketeer
+Proofed on Stage on 9/29. Ingesting to production on 9/30.
 
 Batch 11 
 
-needs me to gather up the pages csvs. 
+Prepping Batch 11. Pages csvs are in the right place and file paths have been corrected generally. Now need to fix a few individual items. A Jira ticket for bucketeering batch 11 has been created and I'm talking to Dawn and Geno about Jake's availability to do that work. (Lisa, 9/30/20)
