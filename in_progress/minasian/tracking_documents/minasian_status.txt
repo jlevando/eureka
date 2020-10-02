@@ -1,17 +1,13 @@
 Minasian Status Document
 
-2020-09-29
+2020-10-02
 Lisa
 
-Batches 1-9
+Batches 1-10
 
 Reviewing Table of Contents presentation on Item Detail Page 
-
-
-Batch 10
-
-Proofed on Stage on 9/29. Ingesting to production on 9/30.
+All manuscripts could be better structured to have correct "two up" view. Right now the display is usually off because the preliminary images don't match the expected order for a "book object". 
 
 Batch 11 
 
-Prepping Batch 11. Pages csvs are in the right place and file paths have been corrected generally. Now need to fix a few individual items. A Jira ticket for bucketeering batch 11 has been created and I'm talking to Dawn and Geno about Jake's availability to do that work. (Lisa, 9/30/20)
+Prepping Batch 11. Buckeer has happened, but more needed.  Now need to fix a few individual items. A Jira ticket for bucketeering batch 11 has been created and I'm talking to Dawn and Geno about Jake's availability to do that work. (Lisa, 9/30/20)
