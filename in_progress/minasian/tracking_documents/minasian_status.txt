@@ -10,4 +10,4 @@ All manuscripts could be better structured to have correct "two up" view. Right 
 
 Batch 11 
 
-Prepping Batch 11. Buckeer has happened, but more needed.  Now need to fix a few individual items. A Jira ticket for bucketeering batch 11 has been created and I'm talking to Dawn and Geno about Jake's availability to do that work. (Lisa, 9/30/20)
+Ingesting to Californicaa-Stage (10/2/20)
