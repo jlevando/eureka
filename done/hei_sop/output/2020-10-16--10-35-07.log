@@ -1,0 +1,4 @@
+2020-10-16 10:35:07,604 - root - INFO - STARTING at 2020-10-16 10:35:07...
+2020-10-16 10:35:08,341 - root - ERROR - Failed to upload hei_sop_works.csv: Manifest generation failed: Work row is missing an "Item ARK" or "Title" value (HTTP 400)
+2020-10-16 10:35:08,341 - root - ERROR - --------------------------------------------
+2020-10-16 10:35:08,341 - root - INFO - DONE at 2020-10-16 10:35:08.
