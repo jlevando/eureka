@@ -1,0 +1,6 @@
+2020-11-16 12:32:14,278 - root - INFO - STARTING at 2020-11-16 12:32:14...
+2020-11-16 12:33:41,115 - root - ERROR - Failed to upload 21198zz00159m4k_pages.csv: Manifest generation failed: CSV didn't contain collections, works, or pages (HTTP 400)
+2020-11-16 12:33:41,116 - root - ERROR - --------------------------------------------
+2020-11-16 12:33:41,329 - root - ERROR - Failed to upload 21198zz0015s7vd_pages.csv: Manifest generation failed: CSV didn't contain collections, works, or pages (HTTP 400)
+2020-11-16 12:33:41,329 - root - ERROR - --------------------------------------------
+2020-11-16 12:33:41,329 - root - INFO - DONE at 2020-11-16 12:33:41.
