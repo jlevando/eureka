@@ -1,0 +1,4 @@
+2020-12-14 13:24:21,435 - root - INFO - STARTING at 2020-12-14 13:24:21...
+2020-12-14 13:24:21,868 - root - ERROR - Failed to upload zionist_posters_works.csv: Manifest generation failed: Could not find collection manifest 'ark:/21198/zz002kck7w' to update (HTTP 500)
+2020-12-14 13:24:21,869 - root - ERROR - --------------------------------------------
+2020-12-14 13:24:21,869 - root - INFO - DONE at 2020-12-14 13:24:21.
