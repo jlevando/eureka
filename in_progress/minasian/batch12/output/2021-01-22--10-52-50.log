@@ -1,0 +1,12 @@
+2021-01-22 10:52:50,940 - root - INFO - STARTING at 2021-01-22 10:52:50...
+2021-01-22 10:52:52,172 - root - ERROR - Failed to upload 21198zz000ss0bb_pages.csv: 413
+2021-01-22 10:52:52,172 - root - ERROR - <html>
+<head><title>413 Request Entity Too Large</title></head>
+<body>
+<center><h1>413 Request Entity Too Large</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2021-01-22 10:52:52,172 - root - ERROR - --------------------------------------------
+2021-01-22 10:52:52,172 - root - INFO - DONE at 2021-01-22 10:52:52.
