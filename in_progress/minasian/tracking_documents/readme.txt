@@ -30,9 +30,9 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 10. Delete the pages CSVs from the \minasian_pages (on Lisa's local machine (not shared in GitHub because it is too big and breaks the system) directory after copying to the batch directory (we don't need to keep 2 copies)
 
-11. Enter value in text direction field in the works.csv
+11. Enter value in text direction field in the works.csv (note on 1/21/21, this may already be correct now? Double check)
 
-12. Change the Filename path to correct the path (it is wrong in DLCS).
+12. Change the Filename path to correct the path (it is wrong in DLCS). You need to change "Minasian" at the beginning of the path to "minasian" lower case. You need to convert the 1147_#### to use the new file hierarchy. Example: "minasian/masters/1147_0160/0160_0001.tif" should be edited to "minasian/masters/0160/0160_0001.tif"
 
 13. Change |~| to <br/><br/> (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
 
