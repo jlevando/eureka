@@ -34,11 +34,11 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 12. Change the Filename path to correct the path (it is wrong in DLCS). You need to change "Minasian" at the beginning of the path to "minasian" lower case. You need to convert the 1147_#### to use the new file hierarchy. Example: "minasian/masters/1147_0160/0160_0001.tif" should be edited to "minasian/masters/0160/0160_0001.tif"
 
-13. Change |~| to <br/><br/> (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
+13. In the description.tableOfContents column, change |~| to <br/><br/> (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
 
-14. Run bucketeer for all the pages.csv files
+14. Run bucketeer for all the pages.csv files (You have to be on VPN, go https://bucketeer.library.ucla.edu/ and select the menu item at the top "CSV Upload")
 
-15. Festerize the works.csv
+15. Festerize the works.csv. Once you have festerize 
 
 16. Festerize the pages.csv
 
