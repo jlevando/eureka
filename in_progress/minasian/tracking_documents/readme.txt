@@ -1,10 +1,11 @@
 Minasian Migration Workflow Readme
 Written by Lisa McAulay
-Updated 2020-06-11
+Updated 2021-01-21
 
 Principles -- We are starting with the manuscripts that contain information about conceptual works to make sure the workflow for these items is fully worked out. The other manuscripts should not be as complicated. These are only about 40+ of the total digitized manuscripts (circa 322).
 
-Pre-work -- Completed already. IMPORTANT, this work would have to be redone.
+Pre-work -- Completed already. IMPORTANT, this work would have to be redone if you want to start from the source export files -- I hope we do not have to do that.
+
 Take the file from Ashton's script's output named `minasian_digitized_works.csv` and bring it into OpenRefine. Using OpenRefine text facet on the column for description.tableOfContents. Select all rows that are blank, export those rows as minasian_digitized_mss_no_toc.csv. Star all the rows that are blank then facet by star and select only un-starred rows and export those rows as minasian_digitized_mss_with_toc.csv.
 
 
@@ -21,13 +22,13 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 6. Create a new batch folder inside \eureka\in_progress\minasian
 
-7. Create a new CSV inside that batch folder named minasian_batchX_works.csv
+7. Create a new CSV inside that batch folder named minasian_batchX_works.csv. Copy a header row from a previous batch, and then copy all the rows that you selected in step 3 into this file. 
 
 8. Find all relevant CSVs inside \minasian_pages for the pages of the manuscripts in the batch
 
 9. Copy the files into the batch folder.
 
-10. Delete the pages CSVs from the \minasian_pages directory after copying to the batch directory (we don't need to keep 2 copies)
+10. Delete the pages CSVs from the \minasian_pages (on Lisa's local machine (not shared in GitHub because it is too big and breaks the system) directory after copying to the batch directory (we don't need to keep 2 copies)
 
 11. Enter value in text direction field in the works.csv
 
