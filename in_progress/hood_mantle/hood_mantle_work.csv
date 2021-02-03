@@ -1,2 +1,2 @@
-Project Name,Item ARK,Parent ARK,Item Status ID,Item Status,Object Type,File Name,Item Sequence,Duplicate,Delete in Title,Thumbnail,Type.typeOfResource,Title,Alt ID.local,Description.note,Date.creation,AltTitle.descriptive
-Hood (Mantle) papers,ark:/21198/zz002bbz6b,ark:/21198/zz002b21fb,1,In progress,Work,,,,,,still image,Letter to Mantle Hood,,,1957-09-23,
+Project Name,Item ARK,Parent ARK,Item Status ID,Item Status,Object Type,File Name,Visibility,Item Sequence,Duplicate,Delete in Title,Thumbnail,Type.typeOfResource,Title,Alt ID.local,Description.note,Date.creation,AltTitle.descriptive,IIIF Manifest URL
+Hood (Mantle) papers,ark:/21198/zz002bbz6b,ark:/21198/zz002b21fb,2,Completed,Work,,,,,,https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz002bbz6b%2Fr789s00s,still image,Letter to Mantle Hood,,,1957-09-23,,https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002bbz6b/manifest
