@@ -1,0 +1,4 @@
+2021-02-17 09:34:58,045 - root - INFO - STARTING at 2021-02-17 09:34:58...
+2021-02-17 09:35:43,103 - root - ERROR - Failed to upload 21198zz002h28pd_pages.csv: Manifest generation failed: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0 (HTTP 400)
+2021-02-17 09:35:43,103 - root - ERROR - --------------------------------------------
+2021-02-17 09:35:44,873 - root - INFO - DONE at 2021-02-17 09:35:44.
