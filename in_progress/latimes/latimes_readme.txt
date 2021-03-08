@@ -1,10 +1,10 @@
 
 This readme was last updated by Lisa McAulay on 2021-02-13.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed in December 2019 and March and April 2020. The collection is being re-ingested into Californica and Ursus Stage in February 2021 to correct the collection name and to correct erroneous values in the date.normalized field. 
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed in December 2019 and March-April 2020. The collection is being re-ingested into Californica-Stage and Ursus-Stage in February-March 2021 to correct the collection name and to correct erroneous values in the date.normalized field. 
 
 * Ingest Challenges *
-This collection contains ~17,000 items and when one record is updated, a substantial amount of re-indexing takes place. Ursus stage goes down whenever one of the latimes csv files is ingested. The Apps team decided on a solution on 2/10/21, and they will begin implementing in the near future. Lisa McAulay will wait to re-ingest the collection on production until the new solution is implemented. 
+This collection contains ~17,000 items and when one record is updated, a substantial amount of re-indexing takes place. Ursus stage goes down whenever one of the latimes csv files is ingested. The Apps team decided on a solution on 2/10/21, and they will begin implementing in the near future. Lisa McAulay will wait to re-ingest the collection on production until the new solution is implemented. As of 3/8/21, the solution has not yet been implemented. 
 
 * Problems To Resolve *
 latimes2_failed.csv includes 11 items for which we cannot find the original TIFF images. 
