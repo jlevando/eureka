@@ -1,4 +1,5 @@
 Project Name,Item ARK,Parent ARK,Item Status ID,Item Status,Object Type,File Name,Item Sequence,Duplicate,Delete in Title,Thumbnail,viewingHint,Text direction,Visibility,IIIF Range,Rights.copyrightStatus,Language,Rights,Type.typeOfResource,Subject,Name.composer,Alt ID.local,Title,AltTitle.other,Description.note,Date.creation,Format.extent,Alt ID.oclc,Date.normalized,Format.medium,Description.contents,Format.dimensions,Description.binding,Opac url,Relation.isPartOf
+Music Library Manuscripts,ark:/21198/zz002jkc6r,ark:/21198/zz002hc8b8,1,In progress,Work,,,,,,,,private,,,,,,,,,Ms. 52/13/1a,,,,,,,,,,,,
 Music Library Manuscripts,ark:/21198/zz002kb4kb,ark:/21198/zz002jkc6r,5,Imported,Page,muslibmss/image/21198-zz002kb4kb_2395557_master.tif,1,,,,,,private,,,,,,,,,"musicmss_Concertino, ou, 12e_000_Cover",,,,,,,,,,,,
 Music Library Manuscripts,ark:/21198/zz002kb4mv,ark:/21198/zz002jkc6r,5,Imported,Page,"muslibmss/image/musicmss_Concertino,ou,1_001.tif",2,,,,,,private,,,,,,,,,"musicmss_Concertino,ou,1_001",,,,,,,,,,,,
 Music Library Manuscripts,ark:/21198/zz002kb4nc,ark:/21198/zz002jkc6r,5,Imported,Page,"muslibmss/image/musicmss_Concertino,ou,1_002.tif",3,,,,,,private,,,,,,,,,"musicmss_Concertino,ou,1_002",,,,,,,,,,,,
@@ -13,8 +14,3 @@ Music Library Manuscripts,ark:/21198/zz002kb4xh,ark:/21198/zz002jkc6r,5,Imported
 Music Library Manuscripts,ark:/21198/zz002kb4z1,ark:/21198/zz002jkc6r,5,Imported,Page,"muslibmss/image/musicmss_Concertino,ou,1_011.tif",12,,,,,,private,,,,,,,,,"musicmss_Concertino,ou,1_011",,,,,,,,,,,,
 Music Library Manuscripts,ark:/21198/zz002kb501,ark:/21198/zz002jkc6r,5,Imported,Page,"muslibmss/image/musicmss_Concertino,ou,1_012.tif",13,,,,,,private,,,,,,,,,"musicmss_Concertino,ou,1_012",,,,,,,,,,,,
 Music Library Manuscripts,ark:/21198/zz002kb51j,ark:/21198/zz002jkc6r,5,Imported,Page,"muslibmss/image/musicmss_Concertino,ou,1_013_Rear.tif",14,,,,,,private,,,,,,,,,"musicmss_Concertino,ou,1_013_Rear",,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
