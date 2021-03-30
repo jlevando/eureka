@@ -1,0 +1,4 @@
+2021-03-23 15:54:43,422 - root - INFO - STARTING at 2021-03-23 15:54:43...
+2021-03-23 15:58:50,093 - root - ERROR - Failed to upload 21198zz0015w5kn_pages.csv: Manifest generation failed: CSV didn't contain collections, works, or pages (HTTP 400)
+2021-03-23 15:58:50,094 - root - ERROR - --------------------------------------------
+2021-03-23 15:59:20,105 - root - INFO - DONE at 2021-03-23 15:59:20.
