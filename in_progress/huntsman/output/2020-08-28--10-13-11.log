@@ -1,4 +1,0 @@
-2020-08-28 10:13:11,997 - root - INFO - STARTING at 2020-08-28 10:13:11...
-2020-08-28 10:13:12,474 - root - ERROR - Failed to upload huntsman_page.csv: Manifest generation failed: Unexpected object type: ChildWork (HTTP 400)
-2020-08-28 10:13:12,474 - root - ERROR - --------------------------------------------
-2020-08-28 10:13:12,474 - root - INFO - DONE at 2020-08-28 10:13:12.
