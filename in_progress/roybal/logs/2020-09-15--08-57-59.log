@@ -1,4 +1,0 @@
-2020-09-15 08:57:59,778 - root - INFO - STARTING at 2020-09-15 08:57:59...
-2020-09-15 08:58:00,458 - root - ERROR - Failed to upload roybal_work.csv: Manifest generation failed: Could not find collection manifest 'ark:/21198/zz000s3hxd' to update (HTTP 500)
-2020-09-15 08:58:00,458 - root - ERROR - --------------------------------------------
-2020-09-15 08:58:00,458 - root - INFO - DONE at 2020-09-15 08:58:00.
