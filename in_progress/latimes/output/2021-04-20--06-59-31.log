@@ -1,0 +1,4 @@
+2021-04-20 06:59:31,301 - root - INFO - STARTING at 2021-04-20 06:59:31...
+2021-04-20 06:59:34,521 - root - ERROR - Failed to upload latimes2.csv: 413 Request Entity Too Large - nginx (HTTP 413)
+2021-04-20 06:59:34,521 - root - ERROR - --------------------------------------------
+2021-04-20 06:59:34,521 - root - INFO - DONE at 2021-04-20 06:59:34.
