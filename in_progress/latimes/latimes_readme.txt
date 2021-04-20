@@ -1,7 +1,7 @@
 
 This readme was last updated by Lisa McAulay on 2021-03-29.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. As of March 2021, that process is still ongoing. 
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. As of April 2021, that process is still ongoing. 
 
 * Action Log *
 3/16/21 - on Californica-Stage, added a value to column description.note in the latimes_collection.csv, and then re-festerized the csv (not sure if that was necessary or not) Began new ingest circa 8:30am.
@@ -9,6 +9,11 @@ The LA Times Collection is being migrated by Lisa McAulay with assistance from G
 3/29/21 - testing on STAGE a new setup from John that should allow ingest into Californica without bringing ursus down
 
 4/13/21 - cleaned up values in name.repository column of latimes3.csv to use when re-ingesting into californica-stage
+
+4/19/21 - discovered that some of the LA Times csvs have not been festerized. Including, latimes1, latimes2
+
+4/20/21 - correcting values for repository name, services contact, and rights holder in latimes7.csv and latimes8.csv
+
 
 * Ingest Challenges *
 This collection contains ~17,000 items and when one record is updated, a substantial amount of re-indexing takes place. Ursus stage goes down whenever one of the latimes csv files is ingested. The Apps team decided on a solution on 2/10/21, and they will begin implementing in the near future. Lisa McAulay will wait to re-ingest the collection on production until the new solution is implemented. As of 3/22/21, the solution has not yet been implemented. 
