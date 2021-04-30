@@ -1,4 +1,3 @@
-
 This readme was last updated by Lisa McAulay on 2021-03-29.
 
 The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. As of April 2021, that process is still ongoing. 
@@ -14,6 +13,7 @@ The LA Times Collection is being migrated by Lisa McAulay with assistance from G
 
 4/20/21 - correcting values for repository name, services contact, and rights holder in latimes7.csv and latimes8.csv
 
+4/30/21 - Anthony changed the limits on filesize for nginx which unblocked me related to feseterizing latimes1 and latimes 2.csv 
 
 * Ingest Challenges *
 This collection contains ~17,000 items and when one record is updated, a substantial amount of re-indexing takes place. Ursus stage goes down whenever one of the latimes csv files is ingested. The Apps team decided on a solution on 2/10/21, and they will begin implementing in the near future. Lisa McAulay will wait to re-ingest the collection on production until the new solution is implemented. As of 3/22/21, the solution has not yet been implemented. 
