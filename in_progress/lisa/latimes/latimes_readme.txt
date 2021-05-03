@@ -1,6 +1,10 @@
-This readme was last updated by Lisa McAulay on 2021-03-29.
+This readme was last updated by Lisa McAulay on 2021-04-30.
 
 The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. As of April 2021, that process is still ongoing. 
+
+* Blockers *
+
+2021-04-30 - still waiting on APPS-835 ticket (delete child items on californica stage for pages ingested pre-fester workflow). cannot ingest on stage until after that work is completed. 
 
 * Action Log *
 3/16/21 - on Californica-Stage, added a value to column description.note in the latimes_collection.csv, and then re-festerized the csv (not sure if that was necessary or not) Began new ingest circa 8:30am.
