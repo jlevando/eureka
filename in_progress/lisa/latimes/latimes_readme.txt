@@ -19,6 +19,8 @@ The LA Times Collection is being migrated by Lisa McAulay with assistance from G
 
 4/30/21 - Anthony changed the limits on filesize for nginx which unblocked me related to feseterizing latimes1 and latimes 2.csv 
 
+5/15/21 - experimented with adding License column and value using latimes2_failed on californica-stage. It seemed to work. 
+
 * Ingest Challenges *
 This collection contains ~17,000 items and when one record is updated, a substantial amount of re-indexing takes place. Ursus stage goes down whenever one of the latimes csv files is ingested. The Apps team decided on a solution on 2/10/21, and they will begin implementing in the near future. Lisa McAulay will wait to re-ingest the collection on production until the new solution is implemented. As of 3/22/21, the solution has not yet been implemented. 
 
