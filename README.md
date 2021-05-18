@@ -5,11 +5,14 @@ A repository for metadata CSV files for ingest into Californica (UCLA instance o
 Naming convention: short_collection_name.csv. E.g., bennett.csv
 Please use camel case for longer names. 
 
-There are four directories in the Eureka repository, which reflect a workflow:
+There are four major directories in the Eureka repository, which reflect a workflow:
 * done 
 * in_progress
 * checked_out
 * metadata_reload
+
+Some additional directories for testing have been added and those are:
+* 
 
 CSV files that are not in `done` should not be edited without communicating with the staff member responsible for shepherding the related collection through ingest. 
 
