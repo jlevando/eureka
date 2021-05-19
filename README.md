@@ -1,9 +1,11 @@
 # eureka
 
-A repository for metadata CSV files for ingest into Californica (UCLA instance of Hyrax, part of the Samvera family). These CSVs are usually created through exported from DLCS (UCLA Library's homegrown Digital Library Collection System) or may be newly created for new collections based on the Californica metadata template.
+A repository for metadata CSV files for ingest into Californica (UCLA instance of Hyrax, part of the Samvera family). 
+
+A metadata CSV can be created through an export from DLCS (UCLA Library's homegrown Digital Library Collection System) or using a metadata template CSV for new collections. This process is managed by members of the Digital Library Program.
 
 Naming convention: short_collection_name.csv. E.g., bennett.csv
-Please use camel case for longer names. 
+Please use underscore (\_) for clarity, if desired. E.g., hood_mantle.csv
 
 There are four major directories in the Eureka repository, which reflect a workflow:
 * done 
