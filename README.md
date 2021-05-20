@@ -1,6 +1,6 @@
 # eureka
 
-A repository for metadata CSV files for ingest into Californica (UCLA instance of Hyrax, part of the Samvera family). 
+A repository of CSV files for digital collections maintained by the UCLA Digital Libary Program. Each collection is represented by one or more CSV files, which contain all metadata and an inventory of all preservation-quality files for a digital collection. The CSVs in this repository are prepared in order to ingest a digital collection into Californica (the UCLA instance of Hyrax, which is component of the Samvera digital library system). 
 
 A metadata CSV can be created through an export from DLCS (UCLA Library's homegrown Digital Library Collection System) or using a metadata template CSV for new collections. This process is managed by members of the Digital Library Program (DLP).
 
