@@ -9,13 +9,13 @@ The LA Times Collection is being migrated by Lisa McAulay with assistance from G
 * CSV Statuses *
 
 latimes_collection.csv     NEEDS re-festerizing after all other csvs have been festerized; added value for license; repository name is correct (1 row)
-latimes1.csv               festerized, has license value; repository name is correct; in progress of ingest into californica prod (5/21/21) (2996 rows)
-latimes_failed.csv         added value for license; repository name is correct (1 row) 
-latimes2.csv               NEEDS re-festerizing, added value for License; repository name is correct  (2986 rows)
-latimes2_failed.csv        NEEDS re-festerizing, added value for License (1 row)
-latimes3.csv               NEEDS festerizing, added value for License (3001 rows)
-latimes4.csv               NEEDS festerizing, added value for License
-latimes5.csv               NEEDS festerizing, added value for License
+latimes1.csv               ingested into californica prod (5/21/21) (festerized, has license value; repository name is correct)  (2996 rows)
+latimes_failed.csv         ingested into californica prod (5/21/21) (festerized, has license value; repository name is correct) (1 row) 
+latimes2.csv               re-ingesting to californica prod on 5/22/21 -- NEEDS re-festerizing, added value for License; repository name is correct  (2986 rows)
+latimes2_failed.csv        NEEDS re-festerizing, added value for License; repository name is correct  (1 row)
+latimes3.csv               festerized 5/22/21, added value for License; repository name is correct  (3001 rows)
+latimes4.csv               NEEDS festerizing, added value for License; repository name is correct (2994 rows)
+latimes5.csv               NEEDS festerizing, added value for License; 
 latimes6.csv               NEEDS re-festerizing, added value for License
 latimes7.csv               NEEDS re-festerizing, added value for License
 latimes7_failed_new.csv    NEEDS re-festerizing, added value for License
