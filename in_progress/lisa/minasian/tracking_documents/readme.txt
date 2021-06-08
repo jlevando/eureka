@@ -4,7 +4,7 @@ Updated 2021-01-21
 
 Principles -- We are starting with the manuscripts that contain information about conceptual works to make sure the workflow for these items is fully worked out. The other manuscripts should not be as complicated. These are only about 40+ of the total digitized manuscripts (circa 322).
 
-Pre-work -- Completed already. IMPORTANT, this work would have to be redone if you want to start from the source export files -- I hope we do not have to do that.
+Pre-work -- Completed already. IMPORTANT, this work would have to be REDONE if you want to start from the source export files -- I hope we do not have to do that.
 
 Take the file from Ashton's script's output named `minasian_digitized_works.csv` and bring it into OpenRefine. Using OpenRefine text facet on the column for description.tableOfContents. Select all rows that are blank, export those rows as minasian_digitized_mss_no_toc.csv. Star all the rows that are blank then facet by star and select only un-starred rows and export those rows as minasian_digitized_mss_with_toc.csv.
 
@@ -34,7 +34,7 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 12. Change the Filename path to correct the path (it is wrong in DLCS). You need to change "Minasian" at the beginning of the path to "minasian" lower case. You need to convert the 1147_#### to use the new file hierarchy. Example: "minasian/masters/1147_0160/0160_0001.tif" should be edited to "minasian/masters/0160/0160_0001.tif"
 
-13. In the description.tableOfContents column, change |~| to <br/><br/> (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
+13. In the description.tableOfContents column, change ****|~| to <br/><br/>****** (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
 
 14. Run bucketeer for all the pages.csv files (You have to be on VPN, go https://bucketeer.library.ucla.edu/ and select the menu item at the top "CSV Upload")
 
