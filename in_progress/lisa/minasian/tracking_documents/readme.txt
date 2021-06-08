@@ -63,6 +63,10 @@ Strange things I've found along the way
 
 1. A Pages Csv with no data (21198zz000stfd3) - not sure why. It turned out to be an item with no children (either conceptual works or pages, so it shouldn't have qualified to be in my workflow. I kicked it out of the batch and moved on. 
  
+*Status*
+2021-06-08 - Batch 7 - updated item spearators within Table of Contents from "|~|" to "<br/><br/>"
+2021-06-08 - Note to self -- looks like Batch 1 has an item that uses table of contents, Batches 2-6 do not have manuscripts with Tables of Contents, Batch 7 and 8 do
+
 About the files
 
 minasian_digitized_mss_with_toc_2020_06_09 was generated using Ashton's minasian_processing.csv. Lisa ran the script on her machine on 06-09-20. Then Lisa filtered the output using OpenRefine to export 2 csvs for the digitized manuscripts: one CSV for works that do not have conceptual works metadata and those that do. Separating the works into these two groups made it easier to find digitized manuscripts that had TOC metadata so that we could test the script and QA the workflow. Ashton will be sending Lisa an updated zip with revised output since there was a correction to make on the script after Lisa reviewed on 6/9/20. This CSV lists all the digitized manuscripts that have information about the conceptual works inserted as Description.toc
