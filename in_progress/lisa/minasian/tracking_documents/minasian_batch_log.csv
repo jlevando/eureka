@@ -23,7 +23,7 @@ Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,
 32,ark:/21198/zz000spggt,Batch 08,minasian_batch8_works.csv,7/24/20,6/20/20,6/20/20,
 33,ark:/21198/zz000spnwf,Batch 08,minasian_batch8_works.csv,7/24/20,6/20/20,6/20/20,
 34,ark:/21198/zz000sq0zr,Batch 08,minasian_batch8_works.csv,7/24/20,6/20/20,6/20/20,
-35,ark:/21198/zz000sq1g0,Batch 08,minasian_batch8_works.csv,7/24/20,6/20/20,6/20/20,
+35,ark:/21198/zz000sq1g0,Batch 08,minasian_batch8_works.csv,7/24/20,6/20/20,6/20/20,errored on californica-stage on 6/8/21. awaiting re-run
 37,ark:/21198/zz000sq36t,Batch 09,minasian_batch9_works.csv,9/30/20,9/30/20,,
 58,ark:/21198/zz000st6vf,Batch 09,minasian_batch9_works.csv,9/30/20,9/30/20,,
 62,ark:/21198/zz000st721,Batch 09,minasian_batch9_works.csv,9/30/20,9/30/20,,
