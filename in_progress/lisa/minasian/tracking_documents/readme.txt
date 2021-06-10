@@ -25,7 +25,7 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 1. Create a new batch folder inside \eureka\in_progress\minasian and name it with the next increment for the batch number.
 
-2. Create a new CSV inside that batch folder named minasian_batchX_works.csv. Copy a header row from a previous batch.
+2. Create a new CSV inside that batch folder named minasian_batchX_works.csv. Copy a header row from a previous batch and paste into this new csv.
 
 3. Select manuscripts for the batch and update the tracking documents. Look in  eureka\in_progress\lisa\minasian\tracking_documents and open `minasian_digitized_mss_with_toc_2020_06_20`. Select any number of rows for migration working from the top of the document. 
 
@@ -33,35 +33,35 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 5. Copy all the work rows that you selected in step 3 into this file. 
 
-4. Delete the row you copied from the `minasian_digitized_mss_with_toc_2020_06_09`. This CSV acts as a "To do" list and will get smaller with every batch that is migrated.
+6. Delete the rows you copied from the `minasian_digitized_mss_with_toc_2020_06_09`. This CSV acts as a "To do" list and will get smaller with every batch that is migrated.
 
-5. Record which manuscripts you are including in your batch in the `minasian_batch_log`.
+7. Record which manuscripts you are including in your batch in the `minasian_batch_log`.
 
-6. Find all relevant CSVs inside \minasian_pages for the pages of the manuscripts in the batch
+8. Find all relevant CSVs inside \minasian_pages for the pages of the manuscripts in the batch
 
-7. Copy the files into the batch folder.
+9. Copy the files into the batch folder.
 
-8. Delete the pages CSVs from the \minasian_pages (on Lisa's local machine (not shared in GitHub because it is too big and breaks the system) directory after copying to the batch directory (we don't need to keep 2 copies)
+10. Delete the pages CSVs from the \minasian_pages (on Lisa's local machine (not shared in GitHub because it is too big and breaks the system) directory after copying to the batch directory (we don't need to keep 2 copies)
 
-9. Enter value in text direction field in the works.csv (note on 1/21/21, this may already be correct now? Double check)
+11. Enter value in text direction field in the works.csv (note on 1/21/21, this may already be correct now? Double check)
 
-10. Change the Filename path to correct the path (it is wrong in DLCS). You need to change "Minasian" at the beginning of the path to "minasian" lower case. You need to convert the 1147_#### to use the new file hierarchy. Example: "minasian/masters/1147_0160/0160_0001.tif" should be edited to "minasian/masters/0160/0160_0001.tif"
+12. Change the Filename path in each of the pages CSVs to correct the path (it is wrong in DLCS). You need to change "Minasian" at the beginning of the path to "minasian" lower case. You need to convert the 1147_#### to use the new file hierarchy. Example: "minasian/masters/1147_0160/0160_0001.tif" should be edited to "minasian/masters/0160/0160_0001.tif"
 
-11. In the description.tableOfContents column, change ****|~| to <br/><br/>****** (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
+13. In the description.tableOfContents column, change ****|~| to <br/><br/>****** (we changed the way Californica ingests table of contents field after Ashton wrote her script; now we use break tags instead of multi-values)
 
-12. Run bucketeer for all the pages.csv files (You have to be on VPN, go https://bucketeer.library.ucla.edu/ and select the menu item at the top "CSV Upload")
+14. Run bucketeer for all the pages.csv files (You have to be on VPN, go https://bucketeer.library.ucla.edu/ and select the menu item at the top "CSV Upload")
 
-13. Festerize the works.csv. Once you have festerize 
+15. Festerize the works.csv. Once you have festerize 
 
-14. Festerize the pages.csv
+16. Festerize the pages.csv
 
-15. Upload the works.csv to Californica-stage
+17. Upload the works.csv to Californica-stage
 
-16. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
+18. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
 
-17. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
+19. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
 
-18. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
+20. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
 
 ----------------------------
 
