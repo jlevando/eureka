@@ -57,11 +57,13 @@ Take the file from Ashton's script's output named `minasian_digitized_works.csv`
 
 17. Upload the works.csv to Californica-stage
 
-18. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
+18. Run Jenkins job to synch solr from californica-stage to Ursus-stage
 
-19. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
+19. Review each work on ursus-stage and select a representative image to serve as the thumbnail. open the pages CSV to retrieve the IIIF Access URL for that image.
 
-20. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
+20. Add a column in the works.csv names "IIIF Access URL" (note : if you try to festerize this csv again after adding this column it will fail. you will need to make an edit to the name of the column and then rerun the festerize script. then before uploading the new works csv, change the column header back)
+
+21. Most (if not all) of the Minasian manuscripts start on the inside cover, which throws off the 2-up view in teh manuscript viewer because it expects to start on a single recto image (either the cover or an inside recto page). 
 
 ----------------------------
 
