@@ -49,11 +49,11 @@ Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,
 337,ark:/21198/zz000sw0h8,Batch 12,minasian_batch12_works.csv,6/11/21,6/11/21,,
 338,ark:/21198/zz000sw0pv,Batch 12,minasian_batch12_works.csv,6/11/21,6/11/21,,
 348,ark:/21198/zz000sr26s,Batch 12,minasian_batch12_works.csv,6/11/21,6/11/21,,
-362,ark:/21198/zz000sr2t3,Batch 13,minasian_batch13_works.csv,,,,
-1391,ark:/21198/zz000wq4n8,Batch 13,minasian_batch13_works.csv,,,,
-384,ark:/21198/zz000srj8k,Batch 13,minasian_batch13_works.csv,,,,
-487,ark:/21198/zz000srqm5,Batch 13,minasian_batch13_works.csv,,,,
-564,ark:/21198/zz000srx5b,Batch 13,minasian_batch13_works.csv,,,,
+362,ark:/21198/zz000sr2t3,Batch 13,minasian_batch13_works.csv,6/12/21,,,
+1391,ark:/21198/zz000wq4n8,Batch 13,minasian_batch13_works.csv,6/12/21,,,
+384,ark:/21198/zz000srj8k,Batch 13,minasian_batch13_works.csv,6/12/21,,,
+487,ark:/21198/zz000srqm5,Batch 13,minasian_batch13_works.csv,6/12/21,,,
+564,ark:/21198/zz000srx5b,Batch 13,minasian_batch13_works.csv,6/12/21,,,
 577,ark:/21198/zz000srzdf,Removed,minasian_batch5_works.csv,,,,Images not on Masters. Thumbnails are also missing. Need to assume the files were lost. Removed from batch 5.
 139,ark:/21198/zz000stfd3,Removed,minasian_batch10_works.csv,,,,Item contained no digitized pages or other children. Was a mistake in the minasian_processing output.
 180,ark:/21198/zz000stp08,Removed,minasian_batch10_works.csv,,,,Found a single child page item (cover) in DLCS but it did not have any image data associated with it. Deleted. 
