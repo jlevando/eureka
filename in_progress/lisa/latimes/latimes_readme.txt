@@ -1,8 +1,8 @@
-This readme was last updated by Lisa McAulay on 2021-11-02.
+This readme was last updated by Lisa McAulay on 2021-11-12.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. We later discovered 3 additional corrections to make: repository name, license, and festerizing. As of May 2021, that process is still ongoing. After the re-ingest is completed, we need to ingest new metadata for the materials described under "OpenUCLA"
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. We later discovered 3 additional corrections to make: repository name, license, and festerizing. As of May 2021, that process is still ongoing. In late May 2021, for some reason Lisa stopped working on LA Times re-ingest. She picked up re-ingest again in October 2021. After the re-ingest is completed, we need to ingest new metadata for the materials described under "OpenUCLA"
 
-After many months away from the LA Times migration work, Lisa is re-orienting herself to where she left off in May 2021 and trying to finish up all the remaining work. 
+October 2021 Update - After many months away from the LA Times migration work, Lisa is re-orienting herself to where she left off in May 2021 and trying to finish up all the remaining work. 
 
 Current status -- working on understanding difficulties with festerize workflow. Several relevant factors and no diagnosed problem yet. Factors are: Lisa had to update her festerize and that required some cleanup of old Python and Festerize files (did this cleanup synchronously with Mark); Library computing infrastructure had a massive outage on 10/21/21.
 UPDATE - it appears the CSVs with ~3000 rows are too large for current festerize workflow (but the underlying problem we think is a timeout for the ingest fester service). We tried with 100 rows and it worked; so maybe try with 500 rows, and if that works, try splitting the csvs into smaller portions. 
@@ -29,51 +29,43 @@ Process:
 
 * CSV Statuses *
 
-*latimes_collection.csv*
+*latimes_collection.csv*     NEEDS re-festerizing after all other csvs have been festerized; added value for license; repository name is correct (1 row)
 
-NEEDS re-festerizing after all other csvs have been festerized; added value for license; repository name is correct (1 row)
+*latimes1.csv*               ingested into californica prod 5/21/21 -- festerized, has license value; repository name is correct)  (2996 rows)
 
-*latimes1.csv*            
+*latimes_failed.csv*         ingested into californica prod 5/21/21 -- festerized, has license value; repository name is correct) (1 row) 
 
-ingested into californica prod 5/21/21 -- festerized, has license value; repository name is correct)  (2996 rows)
+*latimes2.csv*               may be outmoded? - ingested to californica prod on 5/22/21 -- NEEDS re-festerizing, broke original csv into 10 separate CSVs since tetsting on 10/22/21 revealed that fester would no longer handle the larger csv,  (10/25/21); previously had  added value for License to CSV; and checked that repository name is correct  (2986 rows)
 
-*latimes_failed.csv*
-
-ingested into californica prod 5/21/21 -- festerized, has license value; repository name is correct) (1 row) 
-
-*latimes2.csv*
-
-may be outmoded? - ingested to californica prod on 5/22/21 -- NEEDS re-festerizing, broke original csv into 10 separate CSVs since tetsting on 10/22/21 revealed that fester would no longer handle the larger csv,  (10/25/21); previously had  added value for License to CSV; and checked that repository name is correct  (2986 rows)
-
-*latimes2-1.csv*
-
-ingested to californica prod on 10/25/21 -- re-festerized; License and repository name are correct  (300 rows) 
-
-latimes2-2.csv        ingested to californica prod on 10/26/21 -- re-festerized; License and repository name are correct  (300 rows) 
-latimes2-3.csv        ingested to californica stage + prod 10/27/21 -- re-festerized; License and repository name are correct  (300 rows) 
-latimes2-4.csv        ingested to californica stage + prod 10/27/21 -- re-festerized; License and repository name are correct  (300 rows) 
-latimes2-5.csv        ingested to californica stage + prod 10/28/21 -- re-festerized; License and repository name are correct  (300 rows) 
-latimes2-6.csv        ingested to californica stage + prod 10/29/21 -- re-festerized on 10/26/21; License and repository name are correct  (300 rows) 
-latimes2-7.csv        ingested to californica stage + prod 10/29/21 -- re-festerized on 10/26/21; License and repository name are correct  (300 rows) 
-latimes2-8.csv        ingested to californica stage + prod 10/30/21 -- re-festerized on 10/30/21; License and repository name are correct  (300 rows) 
-latimes2-9.csv        ingested to californica stage + prod 11/02/21 -- re-festerized on 11/02/21; License and repository name are correct  (## rows) 
-latimes2-10.csv       ingested to californica stage + prod 11/03/21 -- re-festerized on 11/02/21; License and repository name are correct  (287 rows) 
-
-latimes2_failed.csv        ingested to californica prod on 5/22/21 -- having trouble re-festerizing 11/02/21 NEEDS re-festerizing, added value for License; repository name is correct  (1 row)
-latimes3.csv               ingested to californica prod on 5/22/21 -- festerized 5/22/21, added value for License; repository name is correct  (3001 rows)
-latimes4.csv               ingested to californica prod on 5/23/21 -- festerized, added value for License; repository name is correct  (2994 rows)
-latimes5.csv               ingested to californica prod on 5/23/21 -- festerized 5/23/21, added value for License; repository name is correct (2996 rows)
-latimes6.csv               ingested to californica prod on 5/24/21 -- TRYING to re-festerize 11/03/21, added value for License, repository name is correct (3000 rows)
-latimes7.csv               ingested to californica prod on 05/24/21 -- re-festerized on 5/24/21, added value for License, repository value is correct (2794 rows)
-latimes7_failed_new.csv    ingesting to californica prod on 5/25/21 -- re-festerized 5/25/21, added value for License, repository name is correct (192 rows)
+*latimes2-1.csv*           ingested to californica prod on 10/25/21 -- re-festerized; License and repository name are correct  (300 rows) 
+latimes2-2.csv             ingested to californica prod on 10/26/21 -- re-festerized; License and repository name are correct  (300 rows) 
+latimes2-3.csv             ingested to californica stage + prod 10/27/21 -- re-festerized; License and repository name are correct  (300 rows) 
+latimes2-4.csv             ingested to californica stage + prod 10/27/21 -- re-festerized; License and repository name are correct  (300 rows) 
+latimes2-5.csv             ingested to californica stage + prod 10/28/21 -- re-festerized; License and repository name are correct  (300 rows) 
+latimes2-6.csv             ingested to californica stage + prod 10/29/21 -- re-festerized on 10/26/21; License and repository name are correct  (300 rows) 
+latimes2-7.csv             ingested to californica stage + prod 10/29/21 -- re-festerized on 10/26/21; License and repository name are correct  (300 rows) 
+latimes2-8.csv             ingested to californica stage + prod 10/30/21 -- re-festerized on 10/30/21; License and repository name are correct  (300 rows) 
+latimes2-9.csv             ingested to californica stage + prod 11/02/21 -- re-festerized on 11/02/21; License and repository name are correct  (## rows) 
+latimes2-10.csv            ingested to californica stage + prod 11/03/21 -- re-festerized on 11/02/21; License and repository name are correct  (287 rows) 
+latimes2_supplement.csv    ingesting to californica stage on 11/12/21; next up prod -- re-festerized on 11/12/21; License and repository name is correct  (1 row) (renamed from latimes2_failed.csv since the name was really distracting when trying to troubleshoot problems since the file seemed to be self-describing as a failure)
+latimes3.csv               ingested to californica prod on 5/22/21; NEED to ingest to stage -- festerized 5/22/21; License and repository name are correct  (3001 rows)
+latimes4.csv               ingested to californica prod on 5/23/21; NEED to ingest to stage -- festerized; License and repository name are correct  (2994 rows)
+latimes5.csv               ingested to californica prod on 5/23/21; NEED to ingest to stage -- festerized 5/23/21; License and repository name are correct (2996 rows)
+latimes6.csv               ingested to californica prod on 5/24/21; NEED to ingest to stage -- festerized 5/24/21; License and repository name are correct (3000 rows)
+latimes7.csv               ingested to californica prod on 5/24/21; NEED to ingest to stage -- re-festerized on 5/24/21, License and repository value are correct (2794 rows)
+latimes7_failed_new.csv    ingesting to californica prod on 5/25/21; NEED to ingest to stage  -- re-festerized 5/25/21, added value for License, repository name is correct (192 rows)
 latimes8.csv                    -- re-festerized on 5/25/21, added value for License, respository name is correct (60 rows)
 
 
 * Action Log *
 
-10/25/21 - Began trying to pick up where I left off in May 2021; needed help with festerize and had to change number of rows per CSV since Fester is now timing out when trying to run the 3000 row CSVs
+11/12/21 - (Lisa) Updated my local version of festerize to Festerize v0.4.2, but that did not fix the problem with latimes2_supplement.csv. Instead I used the Web form to re-festerize it. I am now ingesting it into californica-stage, and I'm surprised to see it's going very very very slowly. 
+
+10/25/21 - Began trying to pick up where I left off in May 2021; needed help with festerize and had to change number of rows per CSV since Fester is now timing out when trying to run the 3000 row CSVs. Broke latimes2.csv into 10 batches.
 
 10/22/21 - Paired with Mark Matney for a lengthy troubleshooting process related to updating the festerize script on my local computer and then determining that the CSVs I had used in the past were now too large to go through the Fester workflow without timeout.
+
+5/25/21 - (Lisa) Completed loading latimes csvs into californica prod. 
 
 5/21/21 - Feeling frustrated at having had to wait over 6 months to fix this problem, decided to attempt moving past validating my work on stage (since stage is caught up in the Armenian manuscripts process) and skipping on to doing the work on production. Started an import of latimes1.csv at 7:42am today
 
