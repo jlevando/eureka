@@ -49,8 +49,8 @@ latimes2-10.csv            ingested to californica stage + prod 11/03/21 -- re-f
 latimes2_supplement.csv    ingested to californica stage on 11/12/21; ingested to prod 11/13/21 -- re-festerized on 11/12/21; License and repository name is correct  (1 row) (renamed from latimes2_failed.csv since the name was really distracting when trying to troubleshoot problems since the file seemed to be self-describing as a failure)
 latimes3.csv               ingested to californica prod on 5/22/21; NEED to ingest to stage -- festerized 5/22/21; License and repository name are correct  (3001 rows)
 latimes4.csv               ingested to californica prod on 5/23/21; ingested to stage 11/13/21 -- festerized; License and repository name are correct  (2994 rows)
-latimes5.csv               ingested to californica prod on 5/23/21; ingesting to stage 11/15/21 -- festerized 5/23/21; License and repository name are correct (2996 rows)
-latimes6.csv               ingested to californica prod on 5/24/21; NEED to ingest to stage -- festerized 5/24/21; License and repository name are correct (3000 rows)
+latimes5.csv               ingested to californica prod on 5/23/21; ingested to stage 11/15/21 -- festerized 5/23/21; License and repository name are correct (2996 rows)
+latimes6.csv               ingested to californica prod on 5/24/21; ingesting to stage 11/16/21 -- festerized 5/24/21; License and repository name are correct (3000 rows)
 latimes7.csv               ingested to californica prod on 5/24/21; NEED to ingest to stage -- re-festerized on 5/24/21, License and repository value are correct (2794 rows)
 latimes7_failed_new.csv    ingested to californica prod on 5/25/21; NEED to ingest to stage -- re-festerized 5/25/21; License and repository name are correct (192 rows)
 latimes8.csv               ingested to californica prod on 5/25/21; NEED to ingest to stage -- re-festerized on 5/25/21; License and respository name are correct (60 rows)
@@ -78,11 +78,19 @@ latimes2-9_dupes.csv now has all the items that are marked as duplicating other 
 latimes2-9_in_progress.csv contains 2 items with the status "in progress" and I looked in DLCS both still "in_progress"
 latimes2-9_needs_review.csv has items with the status "needs review" in DLCS. I reviewed all of these in DLCS and they look like files that won't be published. but i'll need to check in with Martha and Claudia when I've got the other things cleaned up. 
 latimes2-9.csv now only contains the files that are "completed". 
-Now looking at latimes2-10.csv
+latimes2-10_newly_completed.csv - contains 1 item that looks like it was changed status 
+latimes2-10_needs_review.csv has items with the status "needs review" in DLCS. I reviewed all of these in DLCS and 3 of 4 look like files that won't be published; the 4th, I'm unsure. I'll need to check in with Martha and Claudia when I've got the other things cleaned up. 
+latimes2-10.csv now only contains the files that are "completed".
+
+Now looking at latimes3.csv to try to determine why i left it in a half-done state
+
+
 Moving on to look at other csvs for item status to get them all sorted into groups before moving forward. 
 "in_progress" CSVs items might need to be reviewed in more detail. 
 
-11/15/21 - ingesting into stage latimes5.csv. 
+11/16/21 - ran jenkins to synch californica-stage and ursus-stage; verified results of latimes5.csv load; ingesting latimes6.csv into stage
+
+11/15/21 - ingested latimes5.csv into stage 
 
 11/13/21 - moved on to ingest latimes4.csv into stage - completed; solr reindexed for ursus-stage on 11/15/21
 
