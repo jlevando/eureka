@@ -46,7 +46,7 @@ latimes7_failed_new.csv    ingested to californica prod on 5/25/21; ingested to 
 latimes8.csv               ingested to californica prod on 5/25/21; ingested to ingest to stage 11/17/21 -- re-festerized on 5/25/21; License and respository name are correct (60 rows)
 
 
-* Action Log 
+* Action Log *
 
 Reviewing all latimes csvs for item status is not equal to 'completed.' 
 latimes1.csv was all 'completed'
@@ -61,8 +61,11 @@ latimes2-9.csv now only contains the files that are "completed".
 latimes2-10_newly_completed.csv - contains 1 item that looks like it was changed status 
 latimes2-10_needs_review.csv has items with the status "needs review" in DLCS. I reviewed all of these in DLCS and 3 of 4 look like files that won't be published; the 4th, I'm unsure. I'll need to check in with Martha and Claudia when I've got the other things cleaned up. 
 latimes2-10.csv now only contains the files that are "completed".
-now reviewing latimes3.csv
-
+latimes3_imported.csv - contains items with status "imported" (as of the time this csv was initially created)
+latimes3_pending.csv - contains items with status "pending"
+latimes3.csv now only contains the files that are "completed".
+latimes4.csv now only contains the files that are "completed". created 4 new files: latimes4_pending.csv, latimes4_needs_review.csv, latimes4_in_progress.csv, latimes4_imported.csv
+now reviewing latimes5.csv
 
 Moving on to look at other csvs for item status to get them all sorted into groups before moving forward. 
 "in_progress" CSVs items might need to be reviewed in more detail. 
