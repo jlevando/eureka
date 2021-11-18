@@ -1,10 +1,6 @@
-This readme was last updated by Lisa McAulay on 2021-11-15.
+This readme was last updated by Lisa McAulay on 2021-11-18.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. November 2021 activities are focused on making sure all the same data is in place on californica prod and californica stage. Accomplishing this "behind the scenes" work will catch the work on the LA Times collection back up to our standard workflow, which is ingest CSVs into stage and when verified that that process has worked correctly, ingest into production. With this process, we also have the same data on stage and prod, which makes troubleshooting or reviewing things easier.  Since May 2021, stage has lagged behind production. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. We later discovered 3 additional corrections to make: repository name, license, and festerizing. As of May 2021, that process is still ongoing. In late May 2021, Lisa stopped working on LA Times re-ingest because she was waiting for californica-stage to be available for large jobs (it had been slowed down / unusable due to work to delete page images for Armenian manuscripts from the repo). She picked up re-ingest again in October 2021. After the re-ingest is completed, we need to ingest new metadata for the materials described under "OpenUCLA"
-
-October-November 2021 Update - After many months away from the LA Times migration work, Lisa is re-orienting herself to where she left off in May 2021 and trying to finish up all the remaining work. This has included upating her local copies of festerize script and extensive troubleshooting to resolve problems with installing an updated script and dealing with a small file that was returning 0K "successful" file instead of a CSV with data. 
-
-
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. All csvs now contain the correct values for collection and repository names and have the right CC license. All CSVs are festerized with the correct values and have been loaded to both stage and prod. Now the task comes of creating a new batch load of newly described content to publish under the "OpenUCLA" collection. First step is to create a new CSV containing LA Times items with status = pending. 
 
 Process:
 - festerize on local computer
@@ -19,13 +15,7 @@ Process:
 
 * Concerns *
 
-2021-11-13 - beginning to re-ingest all remaining latimes csv files into californica stage so that both stage and prod have current data.
-
-2021-10-22 - was trying to get back into working on this collection, and I started by looking at my notes about csv statuses. I saw that latimes2.csv was marked as "needing refesterizing" so I started there. Had trouble running festerize and am troubleshooting with Mark. 
-
-2021-10-22 - not sure if APPS-835 is still a blocker to working on stage; i think not. APPS-835 is actually still in progress (fwiw). 
-
-2021-05-21 - still waiting on APPS-835 ticket (delete child items on californica stage for pages ingested pre-fester workflow). cannot ingest on stage until after that work is completed. Dawn is testing the work done by Andy on APPS-835 with a new ingest of Armenian manuscripts on californica-stage.
+- Accurately completing an update to the LA Times collection
 
 
 * CSV Statuses *
@@ -52,43 +42,34 @@ latimes4.csv               ingested to californica prod on 5/23/21; ingested to 
 latimes5.csv               ingested to californica prod on 5/23/21; ingested to stage 11/15/21 -- festerized 5/23/21; License and repository name are correct (2996 rows)
 latimes6.csv               ingested to californica prod on 5/24/21; ingested to stage 11/16/21 -- festerized 5/24/21; License and repository name are correct (3000 rows)
 latimes7.csv               ingested to californica prod on 5/24/21; ingested to stage 11/17/21 -- re-festerized on 5/24/21, License and repository value are correct (2794 rows)
-latimes7_failed_new.csv    ingested to californica prod on 5/25/21; ***ingesting*** to stage 11/17/21 -- re-festerized 5/25/21; License and repository name are correct (192 rows)
-latimes8.csv               ingested to californica prod on 5/25/21; NEED to ingest to stage -- re-festerized on 5/25/21; License and respository name are correct (60 rows)
+latimes7_failed_new.csv    ingested to californica prod on 5/25/21; ingested to stage 11/17/21 -- re-festerized 5/25/21; License and repository name are correct (192 rows)
+latimes8.csv               ingested to californica prod on 5/25/21; ingested to ingest to stage 11/17/21 -- re-festerized on 5/25/21; License and respository name are correct (60 rows)
 
 
-* Action Log *
-
-11/12/21 - (Lisa) Updated my local version of festerize to Festerize v0.4.2, but that did not fix the problem with latimes2_supplement.csv. Instead I used the Web form to re-festerize it. I am now ingesting it into californica-stage, and I'm surprised to see it's going very very very slowly. Next up is loading in current CSVs to stage for 
-
-- latimes3.csv
-- IN PROGRESS - latimes5.csv
-- latimes6.csv
-- latimes7.csv
-- latimes7_failed_new.csv
-- latimes8.csv
+* Action Log 
 
 Reviewing all latimes csvs for item status is not equal to 'completed.' 
 latimes1.csv was all 'completed'
 same with latimes2-1.csv through latimes2-7.csv
 latimes2-8 had multiple item statuses so i am separating them into different files. 
-latimes2-8_dupes.csv now has all the items that are marked as duplicating other items that are already published. These items will not be published. 
+latimes2-8_dupes.csv now has all the items that are marked as duplicating other items that are already published. These items will not be published.
 latimes2-8_in_progress.csv contains the items with the status "in progress" and I looked in DLCS and the sample of 3 items that I looked at were all still "in_progress".
 latimes2-8.csv now only contains the files that are "completed". 
-latimes2-9_dupes.csv now has all the items that are marked as duplicating other items that are already published. These items will not be published. 
-latimes2-9_in_progress.csv contains 2 items with the status "in progress" and I looked in DLCS both still "in_progress"
+latimes2-9_dupes.csv now has all the items that are marked as duplicating other items that are already published. These items will not be published. latimes2-9_in_progress.csv contains 2 items with the status "in progress" and I looked in DLCS both still "in_progress"
 latimes2-9_needs_review.csv has items with the status "needs review" in DLCS. I reviewed all of these in DLCS and they look like files that won't be published. but i'll need to check in with Martha and Claudia when I've got the other things cleaned up. 
 latimes2-9.csv now only contains the files that are "completed". 
 latimes2-10_newly_completed.csv - contains 1 item that looks like it was changed status 
 latimes2-10_needs_review.csv has items with the status "needs review" in DLCS. I reviewed all of these in DLCS and 3 of 4 look like files that won't be published; the 4th, I'm unsure. I'll need to check in with Martha and Claudia when I've got the other things cleaned up. 
 latimes2-10.csv now only contains the files that are "completed".
-
-Now looking at latimes3.csv to try to determine why i left it in a half-done state
+now reviewing latimes3.csv
 
 
 Moving on to look at other csvs for item status to get them all sorted into groups before moving forward. 
 "in_progress" CSVs items might need to be reviewed in more detail. 
 
-11/17/21 - ran jenkins to sync californica-stage and ursus-stage for latimes7.csv; verified results of latimes7.csv load; ingesting latimes7_failed_new.csv to stage
+11/18/21 - running jenkins for latimes8.csv
+
+11/17/21 - ran jenkins to sync californica-stage and ursus-stage for latimes7.csv; verified results of latimes7.csv load; ingested latimes7_failed_new.csv to stage, used jenkins, verified results; ingested latimes8.csv to stage
 
 11/16/21 - ran jenkins to synch californica-stage and ursus-stage; verified results of latimes5.csv load; ingested latimes6.csv into stage, used jenkins, ingested latimes7.csv to stage
 
@@ -142,4 +123,31 @@ Image Problems
 
 11 items related to Paul Conrad and winning the Pulitzer prize in 1984 are lost. Those items have been marked "Needs QA" in DLCS and moved to latimes_cannot_migrate.txt file. The negatives will need to be rescanned if we want to put them online through the Samvera interface.  
 
+* Detailed Notes about Different Phases of Work * 
 
+*October - November 2021*
+First main activity when coming back to this collection was to finish ingesting the most recent CSVs to californica-stage since Lisa was unable to do that in May 2021 due to competing work taking place at the same time of stage for another collection. 
+
+Accomplishing this "behind the scenes" work served the purpose of catching the LA Times collection back up to our standard workflow, which is ingest CSVs into stage and when verified that that process has worked correctly, ingest into production. With this process, we also have the same data on stage and prod, which makes troubleshooting or reviewing things easier.  Since May 2021, stage has lagged behind production. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. We later discovered 3 additional corrections to make: repository name, license, and festerizing. As of May 2021, that process is still ongoing. In late May 2021, Lisa stopped working on LA Times re-ingest because she was waiting for californica-stage to be available for large jobs (it had been slowed down / unusable due to work to delete page images for Armenian manuscripts from the repo). She picked up re-ingest again in October 2021.
+
+After many months away from the LA Times migration work, Lisa is re-orienting herself to where she left off in May 2021 and trying to finish up all the remaining work. This has included upating her local copies of festerize script and extensive troubleshooting to resolve problems with installing an updated script and dealing with a small file that was returning 0K "successful" file instead of a CSV with data. 
+
+Also had to research why I had left an uncommitted change in latimes3.csv on my laptop from July 2021. Looks like I had found an item that had been erroneously marked as "completed" in my CSV, but was not an image that should ever be published. It was just a scratch image (can't remember if it was just a notes page or a bad image or something like that). There was a ticket asking the Apps team to help me with deleting it. 
+
+
+11/12/21 - (Lisa) Updated my local version of festerize to Festerize v0.4.2, but that did not fix the problem with latimes2_supplement.csv. Instead I used the Web form to re-festerize it. I am now ingesting it into californica-stage, and I'm surprised to see it's going very very very slowly. 
+
+2021-10-22 - was trying to get back into working on this collection, and I started by looking at my notes about csv statuses. I saw that latimes2.csv was marked as "needing refesterizing" so I started there. Had trouble running festerize and am troubleshooting with Mark. 
+
+
+* Problems Solved *
+
+October - November 2021 - Udated version of festerize; debugging "small csv file results in 0k output from festerize" - a few weeks of troubleshooting with Mark and Kevin. 
+
+October - November 2021 - Fester no longer can handle the same CSV files that worked in the past (3,000 rows of LA Times made the process timeout.) In order to work on the collection I had to break the CSVs into much smaller files. 
+
+May 2021 - APPS-835 (work to delete page image files in Californica stage for Armenian manuscripts) was perceived as a process that meant we could not do any ingesting into stage. Geno and Lisa eventually went back to loading CSVs into stage, but Lisa by that time had stepped away from LA Times and it took a long time to get back to the interrupted work. 
+
+2021-10-22 - not sure if APPS-835 is still a blocker to working on stage; i think not. APPS-835 is actually still in progress (fwiw). 
+
+2021-05-21 - still waiting on APPS-835 ticket (delete child items on californica stage for pages ingested pre-fester workflow). cannot ingest on stage until after that work is completed. Dawn is testing the work done by Andy on APPS-835 with a new ingest of Armenian manuscripts on californica-stage.
