@@ -1,6 +1,17 @@
-This readme was last updated by Lisa McAulay on 2021-11-18.
+This readme was last updated by Lisa McAulay on 2021-11-19.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. All csvs now contain the correct values for collection and repository names and have the right CC license. All CSVs are festerized with the correct values and have been loaded to both stage and prod. Now the task comes of creating a new batch load of newly described content to publish under the "OpenUCLA" collection. First step is to create a new CSV containing LA Times items with status = pending. 
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. From February 2021 to November 2021, we worked on re-festerizing and re-ingesting the full collection in order to correct the following values: collection name, non compliant date.normalized values, repository name, license, and festerizing. That process is now complete. Now the process begins of loading the "pending" items as completed and including them as members of both OpenUCLA and LA Times since we want to take credit for work done to describe LA Times photos during the OpenUCLA project period. 
+
+To do (written 2021-11-18): 
+1. accidentally deleted latimes2-9.csv, so I need to restore from git.
+2. may need to request a custom export to capture all pendings
+Custom export would be export where collection = la times and status = completed or pending and edit date = Entered APPS team ticket. It won't be looked at until after Thanksgiving, though, so I will proceed with some testing in the meantime.
+
+1 -- tested latimes_edits_2021_11_19.csv -- this was an item that had been edited in DLCS since the CSVs were created. Lisa replicated the edits from the DLCS staff screen into the CSV and loaded the 1 row CSV into stage and production 11/19/21
+
+2 -- loading latimes_pending_batch1.csv to californica-stage 11/19/21 
+
+
 
 Process:
 - festerize on local computer
@@ -15,7 +26,7 @@ Process:
 
 * Concerns *
 
-- Accurately completing an update to the LA Times collection
+- Accurately completing an update to the LA Times collection. Adding 589 new items from DLCS with status = pending. 
 
 
 * CSV Statuses *
@@ -65,7 +76,18 @@ latimes3_imported.csv - contains items with status "imported" (as of the time th
 latimes3_pending.csv - contains items with status "pending"
 latimes3.csv now only contains the files that are "completed".
 latimes4.csv now only contains the files that are "completed". created 4 new files: latimes4_pending.csv, latimes4_needs_review.csv, latimes4_in_progress.csv, latimes4_imported.csv
-now reviewing latimes5.csv
+latimes5.csv now only contains the files that are "completed". created 3 new files: latimes5_pending.csv, latimes5_needs_review.csv, latimes5_imported.csv
+latimes6.csv now only contains the files that are "completed". created 4 new files: latimes6_pending.csv, latimes6_needs_review.csv, latimes6_imported.csv
+latimes7.csv now only contains the files that are "completed". created 4 new files: latimes7_pending.csv, latimes7_needs_review.csv, latimes7_in_progress.csv, latimes7_imported.csv
+latimes7_failed_new.csv only contains files that are "completed". 
+latimes8.csv now only contains files that are "completed". created 1 new file: latimes8_imported.csv
+
+New Subdirectory
+latimes_noncompleted: contains merged csvs based on status, each csv contains a new column that identifies what the source csv file was for each item
+in_progress.csv created
+imported.csv created
+
+Goal -- once I get done separating all the files out I might move the non completed CSVs into a subdirectory. The main idea being that "completed" items should be the latimes1-latimes8 csvs and that they're stable and solid. And then the latimes with different status might need to be combined (maybe with a new column added to state which csv they were originally part of).
 
 Moving on to look at other csvs for item status to get them all sorted into groups before moving forward. 
 "in_progress" CSVs items might need to be reviewed in more detail. 
@@ -131,7 +153,7 @@ Image Problems
 *October - November 2021*
 First main activity when coming back to this collection was to finish ingesting the most recent CSVs to californica-stage since Lisa was unable to do that in May 2021 due to competing work taking place at the same time of stage for another collection. 
 
-Accomplishing this "behind the scenes" work served the purpose of catching the LA Times collection back up to our standard workflow, which is ingest CSVs into stage and when verified that that process has worked correctly, ingest into production. With this process, we also have the same data on stage and prod, which makes troubleshooting or reviewing things easier.  Since May 2021, stage has lagged behind production. The first major ingest of this collection was performed between December 2019 and April 2020. In February 2021, we began the process of re-ingesting the collection into Californica-Stage and Ursus-Stage to correct the collection name and to correct erroneous values in the date.normalized field. We later discovered 3 additional corrections to make: repository name, license, and festerizing. As of May 2021, that process is still ongoing. In late May 2021, Lisa stopped working on LA Times re-ingest because she was waiting for californica-stage to be available for large jobs (it had been slowed down / unusable due to work to delete page images for Armenian manuscripts from the repo). She picked up re-ingest again in October 2021.
+Accomplishing this "behind the scenes" work served the purpose of catching the LA Times collection back up to our standard workflow, which is ingest CSVs into stage and when verified that that process has worked correctly, ingest into production. With this process, we also have the same data on stage and prod, which makes troubleshooting or reviewing things easier.  Since May 2021, stage has lagged behind production. In late May 2021, Lisa stopped working on LA Times re-ingest because she was waiting for californica-stage to be available for large jobs (it had been slowed down / unusable due to work to delete page images for Armenian manuscripts from the repo). She picked up re-ingest again in October 2021.
 
 After many months away from the LA Times migration work, Lisa is re-orienting herself to where she left off in May 2021 and trying to finish up all the remaining work. This has included upating her local copies of festerize script and extensive troubleshooting to resolve problems with installing an updated script and dealing with a small file that was returning 0K "successful" file instead of a CSV with data. 
 
