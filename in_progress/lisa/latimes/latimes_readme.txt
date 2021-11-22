@@ -1,16 +1,45 @@
-This readme was last updated by Lisa McAulay on 2021-11-19.
+This readme was last updated by Lisa McAulay on 2021-11-22.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. The first major ingest of this collection was performed between December 2019 and April 2020. From February 2021 to November 2021, we worked on re-festerizing and re-ingesting the full collection in order to correct the following values: collection name, non compliant date.normalized values, repository name, license, and festerizing. That process is now complete. Now the process begins of loading the "pending" items as completed and including them as members of both OpenUCLA and LA Times since we want to take credit for work done to describe LA Times photos during the OpenUCLA project period. 
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of [specific date unknown] 2019 (I think it was fall 2019, but can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. (this work is done)
+
+History of This Migration
+The first major ingest of this collection was performed between December 2019 and April 2020.
+
+Then Lisa conducted some data cleanup of those items from February 2021 to November 2021. Lisa re-festerized and re-ingesting the full collection in order to correct the following values: 
+- collection name
+- non compliant date.normalized values
+- repository name
+- license
+- festerizing
+
+That process is now complete. Beginning in November 2021, Lisa is working on making sure the collection is "complete"-- that is all items ready for publication to the world are published through Samvera. 
+
+November 2021 -- the process begins of loading the "pending" items as completed and including them as members of both OpenUCLA and LA Times since we want to take credit for work done to describe LA Times photos during the OpenUCLA project period. 
+
+Date of Original Export
+If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. 
 
 To do (written 2021-11-18): 
 1. accidentally deleted latimes2-9.csv, so I need to restore from git.
-2. may need to request a custom export to capture all pendings
+2. Need to request a custom export to capture all pendings
 Custom export would be export where collection = la times and status = completed or pending and edit date = Entered APPS team ticket. It won't be looked at until after Thanksgiving, though, so I will proceed with some testing in the meantime.
 
-1 -- tested latimes_edits_2021_11_19.csv -- this was an item that had been edited in DLCS since the CSVs were created. Lisa replicated the edits from the DLCS staff screen into the CSV and loaded the 1 row CSV into stage and production 11/19/21
+Edited Items
+1 -- tested latimes_edits_2021_11_19.csv -- this was an item that had been edited in DLCS since the CSVs were created. Lisa replicated the edits from the DLCS staff screen into the CSV and loaded the 1 row CSV into stage and production 11/19/21. Will need to develop a plan for going through all of these edits, but for now I'm going to put that off until I get all the items that have status "pending" into the repos. 
 
-2 -- loading latimes_pending_batch1.csv to californica-stage 11/19/21 
+Pending Status (Group 1)
+2 -- loaded latimes_pending_batch1.csv to californica-stage 11/19/21, ingesting to prod on 11/20/21. This process worked and added the first LA Times item to the OpenUCLA project. the latimes_pending.csv contains all the items that had the status "pending" when the original export from DLCS was performed. I have gone through 11 of these items and all 11 have the same characteristics: in DLCS these items are now matched as 'completed', these items are not listed in my big report of edited items since 11/1/2019 to 11/19/2021, these items are also not in the latimes_photo_pending.csv. My guess is that these are items that were changed from 'pending' to 'completed' sometime before the latimes_photo_pending csv was created. I am also uncertain if the "edited items" report picks up items that have had a status change. I can verify that suspicion later. I created a new latimes_pending_batch2.csv file to contain the next 10 items that I verified are now completed and also verified they are not in the latimes_photo_pending file nor are these listed as having been edited since 11/1/2019. 
 
+Workflow
+1. select items from latimes_pending.csv (breaking into batches)
+2. Add OpenUCLA ARK to Parent ARK column
+3. check DLCS to confirm the item is now "completed"
+4. check edited items list to see if the item has been edited (because if it had been edited, then the latimes_pending might not have the up to date metadata
+5. check the latimes_photo_pending.csv (this file remains a bit of a mystery. Not sure how items are listed as "pending" in my original export and yet not in this "pending" file. probably we weren't tracking the idea of "pending" in (looks like that latimes_photo_pending.csv was added to the eureka repository in the openucla folder (now no longer exists in in_progress) on 01/27/21 by Dawn -- I can't remember the details of what was going on; nor is the commit message very detailed)
+
+
+Additional notes:
+As of 11/20/21, the number of "Completed" LA Times items according to DLCS = 19,599; Number of published items in Samvera production = 16,892. Difference of 2,707. Right now I only have 960 rows (across 4 CSV files) that might account for that difference. So clearly, I've got more sleuthing to do. 
 
 
 Process:
