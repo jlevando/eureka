@@ -53,8 +53,9 @@ Additional notes:
 As of 11/20/21, the number of "Completed" LA Times items according to DLCS = 19,599; Number of published items in Samvera production = 16,892. Difference of 2,707. Right now I only have 960 rows (across 4 CSV files) that might account for that difference. So clearly, I've got more sleuthing to do. 
 
 Items that have been edited since the data that I have. -- Request export by ARK
-21198/zz002cxmn8 - my export is from 2019, but the last edit date was 10/02/20. 
-
+21198/zz002cxmn8 - my export is from 2019, but the last edit date was 10/02/20
+21198/zz002cxmps - my export is from 2019, but the last edit date was 10/02/20 
+21198/zz002cxmsb - my export is from 2019, but the last edit date was 03/11/20 
 
 Process:
 - festerize on local computer
