@@ -15,11 +15,11 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 November 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). 
 
 Date of Original Export - I think it was 11/07/19 or 11/08/19
-If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. Items that were edited on 11/07/19 are listed as 'Completed' in the original export but items that were last edited on 11/08/19 are listed as 'Pending' in the original export. The items edited on 11/08/19 now have the status 'Completed' in DLCS.
+If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. Items that were edited on 11/07/19 are listed as 'Completed' in the original export but items that were last edited on 11/08/19 are listed as 'Pending' in the original export. The items edited on 11/08/19 now have the status 'Completed' in DLCS. Items that were updated earlier than 11/08/19 that have different status (21198/zz002cxmmr; updated on 11/01/19)
 
 I did find a record that was listed as having been edited on 11/13/19 that was marked as 'Completed' in the original export (is part of latimes6.csv) - not sure what edit was made. Item is ark:/21198/zz002dhxb0. A quick review of the latimes6.csv metadata and the DLCS records showed them to be the same, but it's possible there's a minor difference that I didn't catch. This requires more review. It's possible this item was not one of the "pending" items when the original export occurred and that it was edited for a different reason on 11/13/19 (as opposed to the status being changed from pending to completed). 
 
-Current Problems: (documented in APPS-1195 and APPS-1207)
+Current Problems (as of 11/29/21): (documented in APPS-1195 and APPS-1207)
 - On both Stage and Prod -- OpenUCLA collection is broken(ish)
 - On Stage, items do not update their visibility status 
 
@@ -29,7 +29,6 @@ New wrinkle on Stage -- Having trouble getting Californica-Stage to update statu
 
 11/24/21 - Testing now with latimes_pending_batch4.csv on stage. Same results as latimes_pending_batch3.csv - items remained marked as private.
 
-Will put in a ticket to apps team and alert Parinita on 11/29 about these issues.
 
 To do (written 2021-11-18): 
 1. accidentally deleted latimes2-9.csv, so I need to restore from git.
@@ -52,6 +51,9 @@ Workflow
 
 Additional notes:
 As of 11/20/21, the number of "Completed" LA Times items according to DLCS = 19,599; Number of published items in Samvera production = 16,892. Difference of 2,707. Right now I only have 960 rows (across 4 CSV files) that might account for that difference. So clearly, I've got more sleuthing to do. 
+
+Items that have been edited since the data that I have. -- Request export by ARK
+21198/zz002cxmn8 - my export is from 2019, but the last edit date was 10/02/20. 
 
 
 Process:
