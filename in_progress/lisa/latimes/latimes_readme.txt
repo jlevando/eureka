@@ -1,23 +1,35 @@
-This readme was last updated by Lisa McAulay on 2021-11-22.
+This readme was last updated by Lisa McAulay on 2021-11-29.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of [specific date unknown] 2019 (I think it was fall 2019, but can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. (this work is done)
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. Next phase of work is ingesting all the items that were marked "pending" as of November 2019, with the status "completed" and as members of both the LA Times collection and the OpenUCLA collection.
 
 History of This Migration
-The first major ingest of this collection was performed between December 2019 and April 2020.
+November 2019 - April 2020 - The first major ingest of this collection was performed.
 
-Then Lisa conducted some data cleanup of those items from February 2021 to November 2021. Lisa re-festerized and re-ingesting the full collection in order to correct the following values: 
+February 2021 - November 2021 - A major data cleanup of those items. Lisa re-festerized and re-ingesting the full collection in order to correct the following values: 
 - collection name
 - non compliant date.normalized values
 - repository name
 - license
 - festerizing
 
-That process is now complete. Beginning in November 2021, Lisa is working on making sure the collection is "complete"-- that is all items ready for publication to the world are published through Samvera. 
+November 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). 
 
-November 2021 -- the process begins of loading the "pending" items as completed and including them as members of both OpenUCLA and LA Times since we want to take credit for work done to describe LA Times photos during the OpenUCLA project period. 
+Date of Original Export - I think it was 11/07/19 or 11/08/19
+If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. Items that were edited on 11/07/19 are listed as 'Completed' in the original export but items that were last edited on 11/08/19 are listed as 'Pending' in the original export. The items edited on 11/08/19 now have the status 'Completed' in DLCS.
 
-Date of Original Export
-If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. 
+I did find a record that was listed as having been edited on 11/13/19 that was marked as 'Completed' in the original export (is part of latimes6.csv) - not sure what edit was made. Item is ark:/21198/zz002dhxb0. A quick review of the latimes6.csv metadata and the DLCS records showed them to be the same, but it's possible there's a minor difference that I didn't catch. This requires more review. It's possible this item was not one of the "pending" items when the original export occurred and that it was edited for a different reason on 11/13/19 (as opposed to the status being changed from pending to completed). 
+
+Current Problems: (documented in APPS-1195 and APPS-1207)
+- On both Stage and Prod -- OpenUCLA collection is broken(ish)
+- On Stage, items do not update their visibility status 
+
+New wrinkle on Stage -- Having trouble getting Californica-Stage to update status from private to public of works in the latimes_pending_batch3.csv. But I'm fairly certain this process worked for the images in latimes_pending_batch1 and batch2. The only reason I say fairly certain is because I did not verify that the works in batches 1 and 2 were items that were already loaded in as private. I am fairly certain they must have been because all the works I am working on were part of the original export and had originally been inside the main csv files. 
+
+11/24/21 - Reloading latimes_pending_batch3.csv into stage and simultaneously loading into prod. 11/25/21 - Results of test failed. Batch3 loaded again into californica stage but items remained marked as "private". And batch3 into production somehow ruined the OpenUCLA collection. Instead of being listed as "OpenUCLA Collection" it is now "Collection ARK:"
+
+11/24/21 - Testing now with latimes_pending_batch4.csv on stage. Same results as latimes_pending_batch3.csv - items remained marked as private.
+
+Will put in a ticket to apps team and alert Parinita on 11/29 about these issues.
 
 To do (written 2021-11-18): 
 1. accidentally deleted latimes2-9.csv, so I need to restore from git.
@@ -28,13 +40,13 @@ Edited Items
 1 -- tested latimes_edits_2021_11_19.csv -- this was an item that had been edited in DLCS since the CSVs were created. Lisa replicated the edits from the DLCS staff screen into the CSV and loaded the 1 row CSV into stage and production 11/19/21. Will need to develop a plan for going through all of these edits, but for now I'm going to put that off until I get all the items that have status "pending" into the repos. 
 
 Pending Status (Group 1)
-2 -- loaded latimes_pending_batch1.csv to californica-stage 11/19/21, ingesting to prod on 11/20/21. This process worked and added the first LA Times item to the OpenUCLA project. the latimes_pending.csv contains all the items that had the status "pending" when the original export from DLCS was performed. I have gone through 11 of these items and all 11 have the same characteristics: in DLCS these items are now matched as 'completed', these items are not listed in my big report of edited items since 11/1/2019 to 11/19/2021, these items are also not in the latimes_photo_pending.csv. My guess is that these are items that were changed from 'pending' to 'completed' sometime before the latimes_photo_pending csv was created. I am also uncertain if the "edited items" report picks up items that have had a status change. I can verify that suspicion later. I created a new latimes_pending_batch2.csv file to contain the next 10 items that I verified are now completed and also verified they are not in the latimes_photo_pending file nor are these listed as having been edited since 11/1/2019. 
+2 -- loaded latimes_pending_batch1.csv to californica-stage 11/19/21, ingesting to prod on 11/20/21. This process worked and added the first LA Times item to the OpenUCLA project. the latimes_pending.csv contains all the items that had the status "pending" when the original export from DLCS was performed. I have gone through 11 of these items and all 11 have the same characteristics: in DLCS these items are now marked as 'completed', these items are also not in the latimes_photo_pending.csv. My guess is that these are items that were changed from 'pending' to 'completed' sometime before the latimes_photo_pending csv was created. I created a new latimes_pending_batch2.csv file to contain the next 10 items that I verified are now completed and also verified they are not in the latimes_photo_pending file. 
 
 Workflow
 1. select items from latimes_pending.csv (breaking into batches)
 2. Add OpenUCLA ARK to Parent ARK column
 3. check DLCS to confirm the item is now "completed"
-4. check edited items list to see if the item has been edited (because if it had been edited, then the latimes_pending might not have the up to date metadata
+4. check edited items list to see if the item has been edited (because if it had been edited, then the latimes_pending might not have the up to date metadata) -- discovered that I had been searching incorrectly in this file -- it doesn't have the ark:/ prefix and was not returning hits 
 5. check the latimes_photo_pending.csv (this file remains a bit of a mystery. Not sure how items are listed as "pending" in my original export and yet not in this "pending" file. probably we weren't tracking the idea of "pending" in (looks like that latimes_photo_pending.csv was added to the eureka repository in the openucla folder (now no longer exists in in_progress) on 01/27/21 by Dawn -- I can't remember the details of what was going on; nor is the commit message very detailed)
 
 
