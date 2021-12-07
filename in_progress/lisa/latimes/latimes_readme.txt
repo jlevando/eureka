@@ -12,7 +12,15 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 - license
 - festerizing
 
-November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). 
+November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). These will all be marked as "OpenUCLA" items, too. 
+
+Current Actions:
+load latimes_pending_batch6.csv into Californica Stage and Prod. 
+Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv.
+
+latimes_openucla_update_2021_12_02.csv (currently 4,740 item (1 header row)(but would expect to decrease by circa 40-60 rows))
+
+
 
 Date of Original Export - I think it was possibly 11/01/19 or sometime slightly earlier. 
 Evidences:
@@ -234,3 +242,12 @@ May 2021 - APPS-835 (work to delete page image files in Californica stage for Ar
 2021-10-22 - not sure if APPS-835 is still a blocker to working on stage; i think not. APPS-835 is actually still in progress (fwiw). 
 
 2021-05-21 - still waiting on APPS-835 ticket (delete child items on californica stage for pages ingested pre-fester workflow). cannot ingest on stage until after that work is completed. Dawn is testing the work done by Andy on APPS-835 with a new ingest of Armenian manuscripts on californica-stage.
+
+Tracking Repository of CSVs
+
+On 2021-12-07 I am going to delete the following files from the LA Times eureka repository:
+Current location of these files is: eureka/in_progress/lisa/latimes/latimes_noncompleted
+- latimes_imported.csv 
+- 
+Descriptions of files and rationales
+latimes_imported.csv and latimes_in_progress.csv include all items from the LA Times collection in DLCS that had the status of "Imported" or "In Progress" respectively when the original export was performed. These items have been ingested into Californica in Stage and Prod, but marked as "Private." These items do not need to be tracked because they will need to be re-exported when they have been edited or completed. This data is either outdated (because metadata has been added to them) or not useful because we don't need to preserve this data for future use because we want it to be updated. 
