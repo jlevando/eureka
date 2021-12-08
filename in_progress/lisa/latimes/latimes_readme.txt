@@ -1,4 +1,4 @@
-This readme was last updated by Lisa McAulay on 2021-11-29.
+This readme was last updated by Lisa McAulay on 2021-12-05.
 
 The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. Next phase of work is ingesting all the items that were marked "pending" as of November 2019, with the status "completed" and as members of both the LA Times collection and the OpenUCLA collection.
 
@@ -12,18 +12,38 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 - license
 - festerizing
 
-November 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). 
+November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). These will all be marked as "OpenUCLA" items, too. 
 
-Date of Original Export - I think it was 11/07/19 or 11/08/19
-If Lisa has read the Git log correctly, the first time LA Times was loaded to eureka was 11/14/19. Additionally, Jira ticket to migrate LA Times was created on 11/15/19. Items that were edited on 11/07/19 are listed as 'Completed' in the original export but items that were last edited on 11/08/19 are listed as 'Pending' in the original export. The items edited on 11/08/19 now have the status 'Completed' in DLCS. Items that were updated earlier than 11/08/19 that have different status (21198/zz002cxmmr; updated on 11/01/19)
+Current Actions:
+load latimes_pending_batch6.csv into Californica Stage and Prod. 
+Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv.
+
+latimes_openucla_update_2021_12_02.csv (currently 4,740 item (1 header row)(but would expect to decrease by circa 40-60 rows))
+
+
+
+Date of Original Export - I think it was possibly 11/01/19 or sometime slightly earlier. 
+Evidences:
+
+The first time LA Times was loaded to eureka was 11/14/19. 
+Additionally, Jira ticket to migrate LA Times was created on 11/15/19. 
+There are some items that were edited on 11/07/19 and are listed as 'Completed' in the original export. (Possibly an edit was made after they were marked as 'Completed'?)
+Many items that were last edited on 11/08/19 are listed as 'Pending' in the original export, but show listed as 'Completed' in DLCS now. 
+I found several items with current DLCS status = "Completed" that were last edited on 11/01/19 and that are in my group of items that had a status of "pending" in the original export (examples: ark:/21198/zz002dcn47, also ark:/21198/zz002dcn68, ark:/21198/zz002dcn7s, ark:/21198/zz002df48z).
+Records that were edited between 10/14/19 and 10/31/19 all have the status "Completed" in the original export. While this isn't complete proof, it indicates that if I were to use Ashton's export of all items that were edited since 11/1/2019 and have status = completed and say those items all should get assigned to be part of OpenUCLA and need to be updated and published openly through Samvera, that would be an accurate portrayal of items that were worked on in the OpenUCLA era and that have changed in some way since the original CSVs were imported. So it is accurate to assign them to OpenUCLA and it is also appropriate to update them in Samvera. The next step is cleaning up all the CSVs so that each record only appears once. 
 
 I did find a record that was listed as having been edited on 11/13/19 that was marked as 'Completed' in the original export (is part of latimes6.csv) - not sure what edit was made. Item is ark:/21198/zz002dhxb0. A quick review of the latimes6.csv metadata and the DLCS records showed them to be the same, but it's possible there's a minor difference that I didn't catch. This requires more review. It's possible this item was not one of the "pending" items when the original export occurred and that it was edited for a different reason on 11/13/19 (as opposed to the status being changed from pending to completed). 
 
 Current Problems (as of 11/29/21): (documented in APPS-1195 and APPS-1207)
 - On both Stage and Prod -- OpenUCLA collection is broken(ish)
 - On Stage, items do not update their visibility status 
+^^^ Lisa is working with Andy W and Parinita to resolve these problems. I (Lisa) ran some test imports on californica-dev on 12/3 and 12/4 and these imports were designed to have the same problems that I had that resulted in breaking the OpenUCLA collection so that Andy and Parinita could test their potential fix. As far as I can tell the fix did not work. Will bring it to their attention on 12/6/21. OpenUCLA collection does still exist after the bad import, but clicking on it in search results leads to stack trace page. Additionally, the items in the ingest did not update from "private" to "public". 
 
-New wrinkle on Stage -- Having trouble getting Californica-Stage to update status from private to public of works in the latimes_pending_batch3.csv. But I'm fairly certain this process worked for the images in latimes_pending_batch1 and batch2. The only reason I say fairly certain is because I did not verify that the works in batches 1 and 2 were items that were already loaded in as private. I am fairly certain they must have been because all the works I am working on were part of the original export and had originally been inside the main csv files. 
+12/05/21 - Testing on californica-DEV is in progress to deal with the "bad data csv breaks existing collections" problem. Lisa has results to share with Parinita and Andy. ON STAGE - Made another mistake -- accidentally loaded the "bad data csv" to californica-stage when doing the test of dev (just clicked the wrong file to upload into the import csv). Now redoing work on californica-stage by 1) reloading openUCLA collection (done) 2) reloading latimes_pending_batch1.csv. On PROD working on loading latimes_pending batches: now ingesting latimes_pending_batch5.csv. Preparing latimes_pending_batch6.csv
+ 
+
+
+12/02/21 - Reloading latimes_pending_batch3.csv into stage (without OpenUCLA collection in Parent ARK column) and Reloading openucla_collection.csv into stage to reestablish it. 
 
 11/24/21 - Reloading latimes_pending_batch3.csv into stage and simultaneously loading into prod. 11/25/21 - Results of test failed. Batch3 loaded again into californica stage but items remained marked as "private". And batch3 into production somehow ruined the OpenUCLA collection. Instead of being listed as "OpenUCLA Collection" it is now "Collection ARK:"
 
@@ -44,9 +64,10 @@ Pending Status (Group 1)
 Workflow
 1. select items from latimes_pending.csv (breaking into batches)
 2. Add OpenUCLA ARK to Parent ARK column
-3. check DLCS to confirm the item is now "completed"
-4. check edited items list to see if the item has been edited (because if it had been edited, then the latimes_pending might not have the up to date metadata) -- discovered that I had been searching incorrectly in this file -- it doesn't have the ark:/ prefix and was not returning hits 
-5. check the latimes_photo_pending.csv (this file remains a bit of a mystery. Not sure how items are listed as "pending" in my original export and yet not in this "pending" file. probably we weren't tracking the idea of "pending" in (looks like that latimes_photo_pending.csv was added to the eureka repository in the openucla folder (now no longer exists in in_progress) on 01/27/21 by Dawn -- I can't remember the details of what was going on; nor is the commit message very detailed)
+3. check DLCS to confirm the item is now "completed" and that edit date is not recent (most are showing up as having been edited in November 2019)
+4. check the latimes_photo_pending.csv (this file remains a bit of a mystery. Not sure how items are listed as "pending" in my original export and yet not in this "pending" file. probably we weren't tracking the idea of "pending" in (looks like that latimes_photo_pending.csv was added to the eureka repository in the openucla folder (now no longer exists in in_progress) on 01/27/21 by Dawn -- I can't remember the details of what was going on; nor is the commit message very detailed)
+4a. When an item has been edited more recently than November 2019, check the new export from ashton of items that are completed and have been edited since 11/1/2019. If in that file then add OpenUCLA ARK to parent ARk field in "from ashton" csv and delete row from pending batch. This will mean we only have that record in one CSV and that it has been marked as part of OpenUCLA, but it will not be updated/published until I get to that larger file.  
+5. I am changing the status to "2" and "Completed" only after verifying that row is ready for ingest. (thus I'm leaving a record of where I left off if I can't prep a CSV all at one time).
 
 
 Additional notes:
@@ -56,6 +77,7 @@ Items that have been edited since the data that I have. -- Request export by ARK
 21198/zz002cxmn8 - my export is from 2019, but the last edit date was 10/02/20
 21198/zz002cxmps - my export is from 2019, but the last edit date was 10/02/20 
 21198/zz002cxmsb - my export is from 2019, but the last edit date was 03/11/20 
+21198/zz002cxmtv - my export is from 2019, but the last edit date was 03/11/20 
 
 Process:
 - festerize on local computer
@@ -220,3 +242,12 @@ May 2021 - APPS-835 (work to delete page image files in Californica stage for Ar
 2021-10-22 - not sure if APPS-835 is still a blocker to working on stage; i think not. APPS-835 is actually still in progress (fwiw). 
 
 2021-05-21 - still waiting on APPS-835 ticket (delete child items on californica stage for pages ingested pre-fester workflow). cannot ingest on stage until after that work is completed. Dawn is testing the work done by Andy on APPS-835 with a new ingest of Armenian manuscripts on californica-stage.
+
+Tracking Repository of CSVs
+
+On 2021-12-07 I am going to delete the following files from the LA Times eureka repository:
+Current location of these files is: eureka/in_progress/lisa/latimes/latimes_noncompleted
+- latimes_imported.csv 
+- 
+Descriptions of files and rationales
+latimes_imported.csv and latimes_in_progress.csv include all items from the LA Times collection in DLCS that had the status of "Imported" or "In Progress" respectively when the original export was performed. These items have been ingested into Californica in Stage and Prod, but marked as "Private." These items do not need to be tracked because they will need to be re-exported when they have been edited or completed. This data is either outdated (because metadata has been added to them) or not useful because we don't need to preserve this data for future use because we want it to be updated. 
