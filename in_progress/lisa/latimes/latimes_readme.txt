@@ -1,6 +1,6 @@
-This readme was last updated by Lisa McAulay on 2021-12-05.
+This readme was last updated by Lisa McAulay on 2021-12-08.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. Next phase of work is ingesting all the items that were marked "pending" as of November 2019, with the status "completed" and as members of both the LA Times collection and the OpenUCLA collection.
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. The currnent phase of work (November 2021 - December 2021) is ingesting all the items that were marked "pending" as of November 2019, with the status "completed" and as members of both the LA Times collection and the OpenUCLA collection.
 
 History of This Migration
 November 2019 - April 2020 - The first major ingest of this collection was performed.
@@ -15,8 +15,9 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). These will all be marked as "OpenUCLA" items, too. 
 
 Current Actions:
-load latimes_pending_batch6.csv into Californica Stage and Prod. 
-Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv.
+load latimes_pending_batch6.csv into Californica Stage (done on prod)
+Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (1 - done; 2- in progress)
+Related - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
 latimes_openucla_update_2021_12_02.csv (currently 4,740 item (1 header row)(but would expect to decrease by circa 40-60 rows))
 
