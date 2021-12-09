@@ -16,7 +16,7 @@ November 2021 - December 2021 - Lisa is working on updating the collection to re
 
 Current Actions:
 load latimes_pending_batch6.csv into Californica Stage (done on prod)
-Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (1 - done; 2- in progress)
+Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (1 + 2 + 3 - done; 4 - next up)
 Related - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
 latimes_openucla_update_2021_12_02.csv (currently 4,740 item (1 header row)(but would expect to decrease by circa 40-60 rows))
