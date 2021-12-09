@@ -14,13 +14,44 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 
 November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata edited and completed since the original export). 
 
+latimes_pending_batch1.csv (1 row)
+latimes_pending_batch2.csv (8 rows)
+latimes_pending_batch3.csv (11 rows)
+latimes_pending_batch4.csv (1 row)
+latimes_pending_batch5.csv (4 rows)
+latimes_pending_batch6.csv (10 rows)
+35 rows total
+
+On 12/9/21, DLCS lists 20,188 items that are either "Completed" or "Pending"
+
+first round (16,xxx items) , second round (35 items), third round (4707 items) 
+First Round 
+2995 (latimes1)
+2929 (latimes2 divided (300 x 7 (2-1 through 2-7), 258 (2-8), 288 (2-9), 281 (2-10), 1 (2-10 newly completed), 1 (latimes2_supplement))
+2090 (latimes3)
+2005 (latimes4)
+2348 (latimes5)
+2541 (latimes6)
+1770 (latimes7)
+192 (latimes7_failed_new)
+23 (latimes8)
+-----
+16,893 items were 'completed' for first round
+3,295 items should be added as OpenUCLA -- which is less than what I have in my latimes_openucla_update_2021_12_02.csv (that may mean that there are items that are counted as completed that were subsequently edited in DLCS and thus have a new edited date. that's fine -- it means we will count more items as OpenUCLA than necessary, but I don't think anyone is going to fuss)
+
 Current Actions:
-Dedupe latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (done)
-Related - have Geno and Dawn reload all items that belong to OpenUCLA collections.
+working on latimes_openucla_update_2021_12_02.csv (currently 4,680 rows (+ 1 header row)
 
-latimes_openucla_update_2021_12_02.csv (currently 4,707 rows (+ 1 header row)
+done - Dedupe latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (done)
+
+done - bucketeer-- ran CSV through bucketeer on 12/09/21 - 27 rows failed - made a separate file with onl those items named `latimes_openucla_update_2021_12_02_image_problems.csv`. Will hand that off to Geno. 
+
+in progress -- handover failed images to Geno
+
+in progress -- metadata cleanup (make sure type.typeOfResource has value 'still image' for all rows (move wrong values to genre), make sure value 'copyrighted' for all rows, remove values from coverage.spatialLongitude and coverage.spatialLatitude (these are not the right fields for the values)) and delete the columns; cleanup name.repository (often contains a few errors where name.subject values were entered erroneously), correcting date.normalized
 
 
+in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
 Date of Original Export - I think it was possibly 11/01/19 or sometime slightly earlier. 
 Evidences:
@@ -49,11 +80,6 @@ Current Problems (as of 11/29/21): (documented in APPS-1195 and APPS-1207)
 
 11/24/21 - Testing now with latimes_pending_batch4.csv on stage. Same results as latimes_pending_batch3.csv - items remained marked as private.
 
-
-To do (written 2021-11-18): 
-1. accidentally deleted latimes2-9.csv, so I need to restore from git.
-2. Need to request a custom export to capture all pendings
-Custom export would be export where collection = la times and status = completed or pending and edit date = Entered APPS team ticket. It won't be looked at until after Thanksgiving, though, so I will proceed with some testing in the meantime.
 
 Edited Items
 1 -- tested latimes_edits_2021_11_19.csv -- this was an item that had been edited in DLCS since the CSVs were created. Lisa replicated the edits from the DLCS staff screen into the CSV and loaded the 1 row CSV into stage and production 11/19/21. Will need to develop a plan for going through all of these edits, but for now I'm going to put that off until I get all the items that have status "pending" into the repos. 
