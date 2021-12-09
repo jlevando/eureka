@@ -15,7 +15,7 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata completed since the original export). The first group of these are those that had the status "pending" during the first export (November 2019). These will all be marked as "OpenUCLA" items, too. 
 
 Current Actions:
-Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (1 -4 - done; 5 - next up)
+Remove all rows from latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (1 -5 - done; 6 - next up)
 Related - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
 latimes_openucla_update_2021_12_02.csv (currently 4,740 item (1 header row)(but would expect to decrease by circa 40-60 rows))
