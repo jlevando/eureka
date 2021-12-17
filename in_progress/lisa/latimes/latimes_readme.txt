@@ -38,11 +38,12 @@ Data deduped, metadata cleansed, bucketeer and festerize run, loaded into stage 
 - latimes_openucla_update_2021_12_02_batch1-3.csv
 - latimes_openucla_update_2021_12_02_batch2-1.csv
 
-Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, in progress on prod
+Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, done on prod
 - latimes_openucla_update_2021_12_02_batch2-2.csv
-
-Data deduped, bucketeer run, metadata cleansed, bucketeer and festerize run, skipping stage, on deck for prod
 - latimes_openucla_update_2021_12_02_batch3.csv
+
+Bucketeer run, metadata cleansed, bucketeer run and festerize run, skipping stage, on deck for prod
+- latimes_openucla_update_2021_12_02_pending_batch1.csv
 
 
 in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
