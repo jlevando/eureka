@@ -41,9 +41,10 @@ Data deduped, metadata cleansed, bucketeer and festerize run, loaded into stage 
 Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, done on prod
 - latimes_openucla_update_2021_12_02_batch2-2.csv
 - latimes_openucla_update_2021_12_02_batch3.csv
-
-Bucketeer run, metadata cleansed, bucketeer run and festerize run, skipping stage, on deck for prod
 - latimes_openucla_update_2021_12_02_pending_batch1.csv
+
+In progress -- Bucketeer failed, metadata needs review for whether its cleansed, waiting for Geno to review images
+- latimes_openucla_update_2021_12_02_pending_batch2.csv
 
 
 in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
