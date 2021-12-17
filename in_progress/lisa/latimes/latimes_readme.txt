@@ -1,4 +1,4 @@
-This readme was last updated by Lisa McAulay on 2021-12-15.
+This readme was last updated by Lisa McAulay on 2021-12-16.
 
 The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. The current phase of work is on updating items that have been edited, completed, or marked 'pending' under the OpenUCLA project (November 2021 - December 2021). Lisa is ingesting all the items that have been edited since 11/01/19 and have a status of either "completed" or "pending" as of 12/02/21. This group of materials is getting their visibility updated to "public" and will be co-members of the LA Times collection and the OpenUCLA collection.
 
@@ -16,6 +16,7 @@ November 2021 - December 2021 - Lisa is working on updating the collection to re
 
 Metadata cleansing that is needed
 - check type.TypeOfResource (conformity required)
+- make sure there is no data in columns named "Coverage.spatialLatitude" and "Coverage.spatialLongitude" (review and delete these columns once data (if any) is moved)
 - repository name
 - rights.rightsHolderContact
 - rights.servicesContact
@@ -40,14 +41,9 @@ Data deduped, metadata cleansed, bucketeer and festerize run, loaded into stage 
 Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, in progress on prod
 - latimes_openucla_update_2021_12_02_batch2-2.csv
 
-Data deduped, bucketeer run, on deck for metadata cleansing (then festerize, then ingest on stage and prod)
-
+Data deduped, bucketeer run, metadata cleansed, bucketeer and festerize run, skipping stage, on deck for prod
 - latimes_openucla_update_2021_12_02_batch3.csv
 
-
-
-in progress -- metadata cleanup (make sure type.typeOfResource has value 'still image' for all rows (move wrong values to genre), make sure value 'copyrighted' for all rows, remove values from coverage.spatialLongitude and coverage.spatialLatitude (these are not the right fields for the values)) and delete the columns; cleanup name.repository (often contains a few errors where name.subject values were entered erroneously), correcting date.normalized
-NEED TO ADD LICENSE!
 
 in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
@@ -63,7 +59,7 @@ latimes_pending_batch6.csv (10 rows)
 
 On 12/9/21, DLCS lists 20,188 items that are either "Completed" or "Pending"
 
-first round (16,xxx items) , second round (35 items), third round (4707 items) 
+first round (16,xxx items) , second round (35 items), third round (4707 items), pending items 589 (is that included in the 4707?)
 First Round 
 2995 (latimes1)
 2929 (latimes2 divided (300 x 7 (2-1 through 2-7), 258 (2-8), 288 (2-9), 281 (2-10), 1 (2-10 newly completed), 1 (latimes2_supplement))
