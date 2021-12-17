@@ -1,6 +1,6 @@
-This readme was last updated by Lisa McAulay on 2021-12-09.
+This readme was last updated by Lisa McAulay on 2021-12-16.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. The current phase of work (November 2021 - December 2021) is ingesting all the items that have been edited since 11/01/19 and have a status of either "completed" or "pending" as of 12/02/21. This group of materials will be re-ingested and have their visibility updated to "public" and will be co-members of the LA Times collection and the OpenUCLA collection.
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. The current phase of work is on updating items that have been edited, completed, or marked 'pending' under the OpenUCLA project (November 2021 - December 2021). Lisa is ingesting all the items that have been edited since 11/01/19 and have a status of either "completed" or "pending" as of 12/02/21. This group of materials is getting their visibility updated to "public" and will be co-members of the LA Times collection and the OpenUCLA collection.
 
 History of This Migration
 November 2019 - April 2020 - The first major ingest of this collection was performed.
@@ -14,6 +14,42 @@ February 2021 - November 2021 - A major data cleanup of those items. Lisa re-fes
 
 November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata edited and completed since the original export). 
 
+Metadata cleansing that is needed
+- check type.TypeOfResource (conformity required)
+- make sure there is no data in columns named "Coverage.spatialLatitude" and "Coverage.spatialLongitude" (review and delete these columns once data (if any) is moved)
+- repository name
+- rights.rightsHolderContact
+- rights.servicesContact
+- license
+- date.normalized
+- festerize
+- add OpenUCLA collection ark
+
+Current Actions:
+Working on preparing CSVs of the items that are "completed" in DLCS and have been edited since 11/01/19. The items are divided into multiple CSVs to support workflow. They comprise  
+
+Data deduped, metadata cleansed, bucketeer and festerize run, done on prod and in progress on stage (needed to reload)
+- latimes_openucla_update_2021_12_02_batch1-1.csv
+
+Data deduped, metadata cleansed, bucketeer and festerize run, done on stage and prod
+- latimes_openucla_update_2021_12_02_batch1-2.csv 
+
+Data deduped, metadata cleansed, bucketeer and festerize run, loaded into stage but it had errors, loaded into prod anyway (it worked)
+- latimes_openucla_update_2021_12_02_batch1-3.csv
+- latimes_openucla_update_2021_12_02_batch2-1.csv
+
+Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, done on prod
+- latimes_openucla_update_2021_12_02_batch2-2.csv
+- latimes_openucla_update_2021_12_02_batch3.csv
+
+Bucketeer run, metadata cleansed, bucketeer run and festerize run, skipping stage, on deck for prod
+- latimes_openucla_update_2021_12_02_pending_batch1.csv
+
+
+in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
+
+
+Tallies
 latimes_pending_batch1.csv (1 row)
 latimes_pending_batch2.csv (8 rows)
 latimes_pending_batch3.csv (11 rows)
@@ -24,7 +60,7 @@ latimes_pending_batch6.csv (10 rows)
 
 On 12/9/21, DLCS lists 20,188 items that are either "Completed" or "Pending"
 
-first round (16,xxx items) , second round (35 items), third round (4707 items) 
+first round (16,xxx items) , second round (35 items), third round (4707 items), pending items 589 (is that included in the 4707?)
 First Round 
 2995 (latimes1)
 2929 (latimes2 divided (300 x 7 (2-1 through 2-7), 258 (2-8), 288 (2-9), 281 (2-10), 1 (2-10 newly completed), 1 (latimes2_supplement))
@@ -39,19 +75,6 @@ First Round
 16,893 items were 'completed' for first round
 3,295 items should be added as OpenUCLA -- which is less than what I have in my latimes_openucla_update_2021_12_02.csv (that may mean that there are items that are counted as completed that were subsequently edited in DLCS and thus have a new edited date. that's fine -- it means we will count more items as OpenUCLA than necessary, but I don't think anyone is going to fuss)
 
-Current Actions:
-working on latimes_openucla_update_2021_12_02.csv (currently 4,680 rows (+ 1 header row)
-
-done - Dedupe latimes_openucla_update_2021_12_02.csv that exist in latimes_pending_batch[1-6].csv. (done)
-
-done - bucketeer-- ran CSV through bucketeer on 12/09/21 - 27 rows failed - made a separate file with onl those items named `latimes_openucla_update_2021_12_02_image_problems.csv`. Will hand that off to Geno. 
-
-in progress -- handover failed images to Geno
-
-in progress -- metadata cleanup (make sure type.typeOfResource has value 'still image' for all rows (move wrong values to genre), make sure value 'copyrighted' for all rows, remove values from coverage.spatialLongitude and coverage.spatialLatitude (these are not the right fields for the values)) and delete the columns; cleanup name.repository (often contains a few errors where name.subject values were entered erroneously), correcting date.normalized
-
-
-in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
 
 Date of Original Export - I think it was possibly 11/01/19 or sometime slightly earlier. 
 Evidences:
