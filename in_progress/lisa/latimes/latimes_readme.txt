@@ -1,20 +1,22 @@
-This readme was last updated by Lisa McAulay on 2021-12-16.
+This readme was last updated by Lisa McAulay on 2021-12-18.
 
-The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (Specific date not certain yet - can't find precise evidence; see below). The number of items this comprises is between 16,892 and 16,899. The current phase of work is on updating items that have been edited, completed, or marked 'pending' under the OpenUCLA project (November 2021 - December 2021). Lisa is ingesting all the items that have been edited since 11/01/19 and have a status of either "completed" or "pending" as of 12/02/21. This group of materials is getting their visibility updated to "public" and will be co-members of the LA Times collection and the OpenUCLA collection.
+The LA Times Collection is being migrated by Lisa McAulay with assistance from Geno Sanchez. At present, Lisa has ingested standardized metadata CSVs and images for all items that were completed as of November 2019 (16,893 items) and all items that were Completed or Pending as of December 2, 2021 (1st major update). The next phase of work will be some cleanup of the eureka CSVS (inclding ensuring the CSVs in eureka only have 1 row for 1 record (deduping)). 
 
 History of This Migration
 November 2019 - April 2020 - The first major ingest of this collection was performed.
 
-February 2021 - November 2021 - A major data cleanup of those items. Lisa re-festerized and re-ingesting the full collection in order to correct the following values: 
+February 2021 - November 2021 - A major data cleanup of those items. 
+
+Lisa re-festerized and re-ingested the full collection in order to correct the following values: 
 - collection name
 - non compliant date.normalized values
 - repository name
 - license
 - festerizing
 
-November 2021 - December 2021 - Lisa is working on updating the collection to release "newly" completed items (Items that had their metadata edited and completed since the original export). 
+November 2021 - December 2021 - Lisa updated the collection to release "newly" completed items and items marked pending (This includes all items that had their metadata edited and completed since 11/01/21 as ensured by a custom export from DLCS). 
 
-Metadata cleansing that is needed
+Metadata cleansing performed:
 - check type.TypeOfResource (conformity required)
 - make sure there is no data in columns named "Coverage.spatialLatitude" and "Coverage.spatialLongitude" (review and delete these columns once data (if any) is moved)
 - repository name
@@ -42,9 +44,10 @@ Data deduped, metadata cleansed, bucketeer and festerize run, skipped stage, don
 - latimes_openucla_update_2021_12_02_batch2-2.csv
 - latimes_openucla_update_2021_12_02_batch3.csv
 - latimes_openucla_update_2021_12_02_pending_batch1.csv
-
-In progress -- Bucketeer failed, metadata needs review for whether its cleansed, waiting for Geno to review images
 - latimes_openucla_update_2021_12_02_pending_batch2.csv
+
+Missing images research needed:
+latimes_openucla_update_2021_12_02_pending_batch3.csv (Bucketeer failed; Geno looked for the images on Masters, could not find them)
 
 
 in progress (Related) - have Geno and Dawn reload all items that belong to OpenUCLA collections.
@@ -89,7 +92,7 @@ Records that were edited between 10/14/19 and 10/31/19 all have the status "Comp
 
 I did find a record that was listed as having been edited on 11/13/19 that was marked as 'Completed' in the original export (is part of latimes6.csv) - not sure what edit was made. Item is ark:/21198/zz002dhxb0. A quick review of the latimes6.csv metadata and the DLCS records showed them to be the same, but it's possible there's a minor difference that I didn't catch. This requires more review. It's possible this item was not one of the "pending" items when the original export occurred and that it was edited for a different reason on 11/13/19 (as opposed to the status being changed from pending to completed). 
 
-Current Problems (as of 11/29/21): (documented in APPS-1195 and APPS-1207)
+Current Problems (nonblockers) (problem persists as of 12/18/21): (documented in APPS-1195 and APPS-1207)
 - On both Stage and Prod -- OpenUCLA collection is broken(ish)
 - On Stage, items do not update their visibility status 
 ^^^ Lisa is working with Andy W and Parinita to resolve these problems. I (Lisa) ran some test imports on californica-dev on 12/3 and 12/4 and these imports were designed to have the same problems that I had that resulted in breaking the OpenUCLA collection so that Andy and Parinita could test their potential fix. As far as I can tell the fix did not work. Will bring it to their attention on 12/6/21. OpenUCLA collection does still exist after the bad import, but clicking on it in search results leads to stack trace page. Additionally, the items in the ingest did not update from "private" to "public". 
