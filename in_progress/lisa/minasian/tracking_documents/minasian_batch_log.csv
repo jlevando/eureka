@@ -31,7 +31,7 @@ Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,
 121,ark:/21198/zz000std8j,Batch 09,minasian_batch9_works.csv,6/8/21,6/8/21,9/30/21,
 133,ark:/21198/zz000stdvb,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 136,ark:/21198/zz000stf60,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
-151,ark:/21198/zz000stfvt,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
+151,ark:/21198/zz000stfvt,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,"needs revision to fix order of pages at the end (Lisa, 2021-12-21)"
 160,ark:/21198/zz000stg4f,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 184,ark:/21198/zz000stp4b,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 201,ark:/21198/zz000stw1p,Batch 11,minasian_batch11_works.csv,10/2/20,10/2/20,,

@@ -1,8 +1,17 @@
-Minasian Migration Workflow Readme
+Minasian Migration Progress and Workflow Readme
 Written by Lisa McAulay
-Updated 2021-06-09
+Updated 2021-12-21
 
 ** Current Status **
+Lisa is re-orienting herself to the Minasian workflow and status. 
+
+Reviewing tickets from student workers who were reviewing previous bathes
+Batch 10 (https://jira.library.ucla.edu/browse/LEG-309) 
+Mss 151 (ark:/21198/zz000stfvt) -- has some weird images at the end. Patricia reviewed and thought they were duplicates. Lisa working on fixing now by moving the cover image to the end and removing duplicates from the pages CSV and then refesterizing and reingesting. (12/21/21)
+
+See notes in "Previous Status" which reference that I was picking up work again in June 2021. I seemed determined to get back into the swing of things, but then I clearly stopped for another 6 months. I remember during some of the DLCS migration meetings that I decided that I could only work on one migration project at a time because each challenge that remained took my full daily attention to keep moving it forward and getting help from others. And if I switched which challenge I was working on, then I would get disoriented and the "switching cost" of remembering where I left off was too great. 
+
+** Previous Status **
 Last updated 2021-06-09
 Lisa is preparing Batch 12
 
@@ -11,6 +20,8 @@ I took a long hiatus from working on this collection from October 2020 until Jun
 I returned to the work because a patron had an inquiry about a manuscript that I had already migrated and I noticed that the entire TOC was not displaying. I realized I needed to re-ingest the CSV into californica because I had used |~| to separate TOC instead of <br/><br/>
 
 See also 'tracking_documents/minasian_status.txt'
+
+
 
 ** Principles **
 We are starting with the manuscripts that contain information about conceptual works to make sure the workflow for these items is fully worked out. The other manuscripts should not be as complicated. These TOC-containing manuscripts are only about 40+ of the total digitized manuscripts (circa 322).
@@ -87,3 +98,13 @@ Strange things I've found along the way
 About the files
 
 minasian_digitized_mss_with_toc_2020_06_09 was generated using Ashton's minasian_processing.csv. Lisa ran the script on her machine on 06-09-20. Then Lisa filtered the output using OpenRefine to export 2 csvs for the digitized manuscripts: one CSV for works that do not have conceptual works metadata and those that do. Separating the works into these two groups made it easier to find digitized manuscripts that had TOC metadata so that we could test the script and QA the workflow. Ashton will be sending Lisa an updated zip with revised output since there was a correction to make on the script after Lisa reviewed on 6/9/20. This CSV lists all the digitized manuscripts that have information about the conceptual works inserted as Description.toc
+
+Manuscript-Level Notes
+
+*Mss 151, (ark:/21198/zz000stfvt), batch 10*
+Notes on this Jira ticket from Patricia helped me go back and make revisions to the manuscript pages: https://jira.library.ucla.edu/browse/LEG-309.
+
+On 12-21-2021, I removed the rows from the pages csv for this manuscript for pages with the filenames 1147_0151_0317.tif 1147_0151_0318.tif because they were nearly the same as 1147_0151_0318.tif and 1147_0151_0319.tif. Please note that all four images are unsatisfactory. All four are sections of a piece of paper, but not the entirety. writing clearly is cut off and no other images show the matching pieces. I suspect maybe auto-cropping to separate page spreads resulted in a mistake. These erroneous images should be replaced with better images when time allows. These pages do seem to be tipped in notes that are not contemporary to the rest of the document. 
+
+Additionally, I placed the inside front cover image at the end of the manuscript so that the book-viewer option shows a page spread. 
+
