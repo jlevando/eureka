@@ -8,6 +8,9 @@ Batches 1-11
 Reviewing Table of Contents presentation on Item Detail Page 
 All manuscripts could be better structured to have correct "two up" view. Right now the display is usually off because the preliminary images don't match the expected order for a "book object". 
 
+Jira tickets:
+https://jira.library.ucla.edu/browse/LEG-310 -- Has a note that needs reviewing 
+
 Batch 12
 
 Need to start preparing and gathering materials
