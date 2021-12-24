@@ -1,11 +1,11 @@
 Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,Date originally ingested,Notes
-30,ark:/21198/zz000sr04s,Batch 01,minasian_mss30_work.csv,9/30/20,9/30/20,,
+30,ark:/21198/zz000sr04s,Batch 01,minasian_mss30_work.csv,9/30/20,9/30/20,,Redoing because images appear to be in the wrong order; need help from Services team (2021-12-23)
 12,ark:/21198/zz000sq41q,Batch 02,minasian_mss12_work.csv,7/24/20,,2/4/2020,
-314,ark:/21198/zz000svzmw,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,
-457,ark:/21198/zz000srp91,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,
-551,ark:/21198/zz000srw9x,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,
-631,ark:/21198/zz000sz4f2,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,
-764,ark:/21198/zz000szj9s,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,
+314,ark:/21198/zz000svzmw,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,"UV not showing up on test, stage, prod (2021-12-23)"
+457,ark:/21198/zz000srp91,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,"UV not showing up on test, stage, prod (2021-12-23)"
+551,ark:/21198/zz000srw9x,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,"UV not showing up on test, stage, prod (2021-12-23)"
+631,ark:/21198/zz000sz4f2,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,"UV not showing up on test, stage, prod (2021-12-23)"
+764,ark:/21198/zz000szj9s,Batch 03,minasian_batch3_works.csv,7/24/20,,2/6/2020,"UV not showing up on test, stage, prod (2021-12-23)"
 399,ark:/21198/zz000srk40,Batch 04,minasian_mss399_work.csv,7/24/20,,4/16/20,
 336,ark:/21198/zz000sw0gr,Batch 05,minasian_batch5_works.csv,7/24/20,,,
 561,ark:/21198/zz000srx2s,Batch 05,minasian_batch5_works.csv,7/24/20,,,
@@ -14,7 +14,7 @@ Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,
 1486,ark:/21198/zz000wrh7t,Batch 05,minasian_batch5_works.csv,7/24/20,,,
 183,ark:/21198/zz000stp3t,Batch 06,minasian_batch6_works.csv,7/24/20,,5/14/20,
 396,ark:/21198/zz000srk1f,Batch 06,minasian_batch6_works.csv,7/24/20,,,
-582,ark:/21198/zz000srzk1,Batch 06,minasian_batch6_works.csv, 7/24/20,,5/14/20,
+582,ark:/21198/zz000srzk1,Batch 06,minasian_batch6_works.csv,7/24/20,,5/14/20,
 732,ark:/21198/zz000szg47,Batch 06,minasian_batch6_works.csv,7/24/20,,5/14/20,
 1447,ark:/21198/zz000wrck2,Batch 06,minasian_batch6_works.csv,7/24/20,,5/14/20,
 13,ark:/21198/zz000sq427,Batch 07,minasian_batch7_works.csv,6/8/21,6/8/21,6/20/20,redid Batch 7 on 6/8/21 to change item delimiter inside cell for Table of Contents to <br/><br/> insstead of |~|
@@ -31,7 +31,7 @@ Manuscript Number,ARK,Batch,CSV filename,Date Ingested Stage,Date Ingested Prod,
 121,ark:/21198/zz000std8j,Batch 09,minasian_batch9_works.csv,6/8/21,6/8/21,9/30/21,
 133,ark:/21198/zz000stdvb,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 136,ark:/21198/zz000stf60,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
-151,ark:/21198/zz000stfvt,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,"needs revision to fix order of pages at the end (Lisa, 2021-12-21)"
+151,ark:/21198/zz000stfvt,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,Purposefully removed images 0317 and 0318 as slighly worse images of the same content as is in images 0319 and 0320. These images are still unsatisfactory and require consulting the original.
 160,ark:/21198/zz000stg4f,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 184,ark:/21198/zz000stp4b,Batch 10,minasian_batch10_works.csv,9/30/20,9/30/20,9/30/20,
 201,ark:/21198/zz000stw1p,Batch 11,minasian_batch11_works.csv,10/2/20,10/2/20,,
