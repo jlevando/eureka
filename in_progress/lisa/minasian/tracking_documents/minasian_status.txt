@@ -1,9 +1,13 @@
 Minasian Status Document
 
-2021-12-24
+2021-12-31
 Lisa
 
-Next Up (scheduled for 2021-12-25): https://jira.library.ucla.edu/browse/LEG-358 
+
+Current work (2021-12-31): https://jira.library.ucla.edu/browse/LEG-361 (checked the first manuscript (364) working on second (1391), needs major page reordering (fixed up to page 160, need to keep switching even and odd pages (e.g., 161 is really 162 and 162 is really 161)
+
+For the future: (clone this ticket for each batch of Minasian items); then work through each one.
+https://jira.library.ucla.edu/browse/LEG-358 (Fixing page order in manuscripts so that the 2 page spread view (book view) works effectively; usually means I need to move the first image to the end of the manuscript because it is throwing off the only algorithm we have working, which is to expect the first page to be a recto and shown alone followed by spreads; the IIIF presentation specification allows for different displays, but that aspect of the specification is not currently supported in our viewer.)
 
 Batches 1-11
 
