@@ -1,12 +1,60 @@
 Minasian Status Document
 
-2020-10-02
+2021-12-31
 Lisa
+
+
+Current work (2021-12-31): https://jira.library.ucla.edu/browse/LEG-361 (checked the first manuscript (364) working on second (1391), needs major page reordering (fixed up to page 160, need to keep switching even and odd pages (e.g., 161 is really 162 and 162 is really 161)
+
+For the future: (clone this ticket for each batch of Minasian items); then work through each one.
+https://jira.library.ucla.edu/browse/LEG-358 (Fixing page order in manuscripts so that the 2 page spread view (book view) works effectively; usually means I need to move the first image to the end of the manuscript because it is throwing off the only algorithm we have working, which is to expect the first page to be a recto and shown alone followed by spreads; the IIIF presentation specification allows for different displays, but that aspect of the specification is not currently supported in our viewer.)
 
 Batches 1-11
 
 Reviewing Table of Contents presentation on Item Detail Page 
 All manuscripts could be better structured to have correct "two up" view. Right now the display is usually off because the preliminary images don't match the expected order for a "book object". 
+
+Reviewing Page Images and Order in Ursus
+*Batch 1*
+- Mss 30 (Batch 1) (ark:/21198/zz000sr04s) -- discovered major misordering of pages starting at page 110; (thought it was missing, but the correct image was misnamed 112, and page 112 was represented by an image named 114, etc). Student reviewer did not notice this error. Had noted an error with page 146, which did tip me off for looking more closely. 
+- Trying to rearrange the images in the pages CSV, but festerize is not picking up the new order. I suspect I will need help from the Services team because I can't figure out why page 112 still shows the previous image and not the replacement image. It's complicated. I rebucketeered so that I could get the the page ark and the IIIF asset ark to match. 
+This image listed in the manifest for Page 112 (https://iiif.library.ucla.edu/iiif/2/ark%3A%2F21198%2Fzz000sp7cw/full/600,/0/default.jpg) shows the right image, but the Universal Viewer is not showing the same image. Not sure why. I tried after clearing history in the browser, but it still didn't work. OH WAAAITTT -- it's the cache (somehow) that cantaloupe has? once I clicked to zoom in on the image, it refreshed and showed the right one, but then if i zoom back out the old image is shown. Very wonky. Can't fix on my own. 
+
+*Batch 3*
+-- For all works in this batch I fixed the problem of the Universal Viewer not showing up by refesterizing and re-ingesting into Californica-Stage, Test, and Prod.
+
+- Mss 314 (Batch 3) () --  Julia noted that the two-page viewing option wasn't available, but now it is. 
+
+- Mss 457 (Batch 3) -- Julia noted that the two-page viewing option wasn't available, but now it is. Pages will need to be reordered for the openings to be correct. Not doing now. 
+
+- Mss 551 (Batch 3) -- Julia noted that the two-page viewing option wasn't available, but now it is.
+
+- Mss 631 (Batch 3) -- Julia noted that the two-page viewing option wasn't available, but now it is. She also noted something about pages 1 and 2, but I don't see the problem she's mentioning. 
+
+-- Mss 764 (Batch 3) -- Julia noted that the two-page viewing option wasn't available, but now it is. She also noted pages 1 and 2 were mislabeled, but that is not true. (Refesterizing may have fixed this problem, or she misunderstood the markings on the first few pages)
+
+
+
+Jira tickets that can be closed:
+https://jira.library.ucla.edu/browse/LEG-309 -- done (will update ticket on 1/4/22)
+https://jira.library.ucla.edu/browse/LEG-310 -- done (will update ticket on 1/4/22)
+https://jira.library.ucla.edu/browse/LEG-243 -- done (will update ticket on 1/4/22)
+https://jira.library.ucla.edu/browse/LEG-262 -- done (will update ticket on 1/4/22)
+
+Follow Up Work -- Next to-dos
+*Seek outside help*
+Maybe Sohaib? On https://jira.library.ucla.edu/browse/LEG-262 Mss 1475. It appears to be a manuscript that reads and opens vertically, but I'm uncertain. Not sure the viewing set up in Universal Viewer is effective, and I'm only guessing that it's the accurate set up (bottom-to-top) -- Language is not identified, so I will need help with that too. 
+
+Follow Up Work -- Barriers
+
+*Services Team*
+Need help with Batch 1, Mss 30 because of reordering the images. 
+Need help from Geno because I want to have a standard "image not available" Tiff on Masters that I can use over and over again. He will need to put it there for me. 
+
+Follow Up Work -- Non Blocking
+
+*Apps Team*
+The "deleting child works" task throws lots of errors that don't seem to affect the main activity of ingest. What's happening?
 
 Batch 12
 
