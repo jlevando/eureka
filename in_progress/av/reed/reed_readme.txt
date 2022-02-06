@@ -1,3 +1,7 @@
+2022-02-06
+
+Lisa is testing an import after having worked more on the metadata mapping with Mark. 
+
 2021-11-12
 
 This collection is a new collection to test workflows and end user interface to support the UCLA Film and Television Archive's digital access projects. Lisa McAulay is coordinating the project with Television Curator, Mark Quigley. 
