@@ -1,8 +1,12 @@
-2022-02-06
+***2022-02-06***
 
 Lisa is testing an import after having worked more on the metadata mapping with Mark. 
 
-2021-11-12
+New test set includes 39 records; is all the episodes from the 1980s. Filename: tom_reed_metadata_1980s_episodes.csv
+
+Since reed1.csv is an episode from the 80s, I will delete that csv once I have finished comparing my second test csv to the reed1.csv.
+
+***2021-11-12***
 
 This collection is a new collection to test workflows and end user interface to support the UCLA Film and Television Archive's digital access projects. Lisa McAulay is coordinating the project with Television Curator, Mark Quigley. 
 
