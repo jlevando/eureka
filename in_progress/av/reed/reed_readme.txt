@@ -1,3 +1,20 @@
+Tom Reed's For Members Only Read Me
+Repository: Film & Television Archive
+
+Last updated: 2022-03-03
+By: Elizabeth McAulay
+
+---------------
+***File inventory***
+
+**Video Files**
+
+**Metadata Files**
+All files are for testing only -- Mark will prepare a new metadata CSV after we work out the mappings and details. 
+Files that Lisa is using for testing are uploaded to github in the eureka repository. Path
+---------------
+Worklog
+
 ***2022-02-06***
 
 Lisa is testing an import after having worked more on the metadata mapping with Mark. 
