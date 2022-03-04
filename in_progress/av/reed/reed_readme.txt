@@ -7,11 +7,14 @@ By: Elizabeth McAulay
 ---------------
 ***File inventory***
 
+
 **Video Files**
 
 **Metadata Files**
 All files are for testing only -- Mark will prepare a new metadata CSV after we work out the mappings and details. 
 Files that Lisa is using for testing are uploaded to github in the eureka repository. Path
+On Lisa's mac desktop: 
+reed_raw_metadata_2021_10_15.csv
 ---------------
 Worklog
 
