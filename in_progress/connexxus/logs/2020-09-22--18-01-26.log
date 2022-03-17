@@ -1,4 +1,0 @@
-2020-09-22 18:01:26,375 - root - INFO - STARTING at 2020-09-22 18:01:26...
-2020-09-22 18:01:27,364 - root - ERROR - Failed to upload connexxus_works.csv: Manifest generation failed: Could not find collection manifest 'ark:/21198/zz000s19ng' to update (HTTP 500)
-2020-09-22 18:01:27,365 - root - ERROR - --------------------------------------------
-2020-09-22 18:01:27,365 - root - INFO - DONE at 2020-09-22 18:01:27.
