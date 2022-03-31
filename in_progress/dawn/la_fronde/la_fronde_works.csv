@@ -1,6 +1,7 @@
 ,,,DLP will supply,DLP will supply,,leave empty,,,,,,,,,,,,,,,,,,,,,,,,,,for collection description,,,,for collection row only,for collection row only,for collection row only,,,,,,,
 Key,Title,Object Type,Item ARK,Parent ARK,Rights.copyrightStatus,File Name,Item Sequence,AltIdentifier.local,AltTitle.other,Coverage.geographic,Date.creation,Date.normalized,Description.fundingNote,Description.latitude,Description.longitude,Description.note,Format.dimensions,Format.extent,Format.medium,Language,Name.repository,Name.subject,Opac url,Publisher.publisherName,Rights.rightsHolderContact,Rights.statementLocal,Subject,Type.genre,Type.typeOfResource,Place of origin,AltTitle.uniform,Summary,viewingHint,Illustrations note,Table of Contents,Masthead,Representative image,Featured image,Subject geographic,Subject temporal,Finding Aid URL,Illustrator,Editor,Note,Contents note
 ,La Fronde,Collection,ark:/21198/z1476482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Work,,ark:/21198/z1476482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 7684021_1874-04-05,,Work,ark:/21198/z10g5cgf,ark:/21198/z1476482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,paged,,,,,,,,,,,,
 7684021_1874-04-12,,Work,ark:/21198/z1vq4w1m,ark:/21198/z1476482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,paged,,,,,,,,,,,,
 7684021_1874-04-19,,Work,ark:/21198/z1qz44c5,ark:/21198/z1476482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,paged,,,,,,,,,,,,
