@@ -1,0 +1,3 @@
+2022-04-07 13:24:14,511 - root - INFO - STARTING at 2022-04-07 13:24:14...
+2022-04-07 13:24:15,125 - root - ERROR - Failed to upload kwongwahpo-metadata.csv: Manifest generation failed: Uploaded CSV's "Object Type" header could not be found (HTTP 400)
+2022-04-07 13:24:15,125 - root - INFO - DONE at 2022-04-07 13:24:15.
