@@ -1,0 +1,3 @@
+2022-04-28 11:09:49,470 - root - INFO - STARTING at 2022-04-28 11:09:49...
+2022-04-28 11:09:50,103 - root - ERROR - Failed to upload sharpeville-works.csv: Manifest generation failed: Could not find collection manifest 'ark:/21198/z1t45sc2|~|ark:/21198/z1zk7d59' to update (HTTP 500)
+2022-04-28 11:09:50,104 - root - INFO - DONE at 2022-04-28 11:09:50.
